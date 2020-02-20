@@ -1,0 +1,38 @@
+//STATE-COMMANDS (. for no commands)
+READY_TO_SPAWN-quit draw_map status other_status status_tile
+READY_TO_SPAWN_DISCONNECTION-quit draw_map status other_status status_tile
+READY_TO_RESPAWN-quit draw_map status other_status status_tile
+END_OF_TURN-quit draw_map status other_status status_tile
+CAN_BE_COUNTER_ATTACKED-quit draw_map status other_status status_tile
+COUNTER_ATTACK-quit draw_map powerup nothing
+WAIT_FOR_OTHER_PLAYERS_TURN-quit draw_map status other_status status_tile
+WAIT_FOR_OTHER_PLAYERS_TO_SPAWN-quit draw_map status other_status status_tile
+CHOOSE_COUNTER_ATTACK-quit draw_map status other_status status_tile powerup nothing
+READY_FOR_ACTION-quit draw_map status other_status status_tile action nothing
+CHOOSE_ROOM-quit draw_map status other_status status_tile room
+CHOOSE_TILE_FOR_WEAPON_ACTION-quit draw_map status other_status status_tile tile nothing
+CHOOSE_TILE_FOR_RUN_ACTION-quit draw_map status other_status status_tile tile
+CHOOSE_TILE_FOR_GRAB_ACTION-quit draw_map status other_status status_tile tile
+CHOOSE_TILE_FOR_SHOOT_ACTION-quit draw_map status other_status status_tile tile
+CHOOSE_AMMOS-quit draw_map status other_status status_tile ammo
+CHOOSE_TYPE_OF_EFFECT-quit draw_map status other_status status_tile type
+CHOOSE_EFFECT-quit draw_map status other_status status_tile effect nothing
+CHOOSE_TARGET-quit draw_map status other_status status_tile target nothing
+CHOOSE_POWERUP-quit draw_map status other_status status_tile powerup
+CHOOSE_AFTER_DAMAGE_POWERUP-quit draw_map status other_status status_tile powerup nothing
+CHOOSE_WEAPON_TO_TAKE-quit draw_map status other_status status_tile weapon
+CHOOSE_WEAPON_HAND-quit draw_map status other_status status_tile weapon
+CHOOSE_LINKED_EFFECT-quit draw_map status other_status status_tile effect nothing
+CHOOSE_WEAPON_TO_DROP-quit draw_map status other_status status_tile weapon
+CHOOSE_WEAPON_TO_RELOAD-quit draw_map status other_status status_tile weapon nothing
+CHOOSE_WEAPON_TO_RELOAD_IN_ACTION-quit draw_map status other_status status_tile weapon nothing
+CHOOSE_WEAPON_TO_RELOAD_MANDATORY-quit draw_map status other_status status_tile weapon nothing
+DISCARD_POWERUP_FOR_SPAWN-quit draw_map status other_status status_tile powerup
+DISCARD_POWERUP_FOR_COST_EFFECT-quit draw_map status other_status status_tile powerup nothing
+DISCARD_POWERUP_FOR_COST_POWERUP-quit draw_map status other_status status_tile powerup nothing
+DISCARD_POWERUP_FOR_COST_WEAPON-quit draw_map status other_status status_tile powerup nothing
+DISCARD_POWERUP_FOR_COST_WEAPON_IN_ACTION-quit draw_map status other_status status_tile powerup nothing
+CHOOSE_DIRECTION-quit draw_map status other_status status_tile direction
+CHOOSE_POWERUP_TARGET-quit draw_map status other_status status_tile target
+CHOOSE_POWERUP_TILE-quit draw_map status other_status status_tile tile
+DISCONNECTED-.

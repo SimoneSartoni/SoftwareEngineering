@@ -1,0 +1,14 @@
+#numberoOf color type name EFFECT(cost, dmg, minMov, maxMov, mark, aoe, targetEnemy, straightForward)
+2 Y AD TARGETING_SCOPE 1 1 0 0 0 false true false
+2 R AD TARGETING_SCOPE 1 1 0 0 0 false true false
+2 B AD TARGETING_SCOPE 1 1 0 0 0 false true false
+2 Y S NEWTON 0 0 1 2 0 false true true
+2 R S NEWTON 0 0 1 2 0 false true true
+2 B S NEWTON 0 0 1 2 0 false true true
+2 Y ADT TAGBACK_GRENADE 0 0 0 0 1 false true false
+2 R ADT TAGBACK_GRENADE 0 0 0 0 1 false true false
+2 B ADT TAGBACK_GRENADE 0 0 0 0 1 false true false
+2 Y S TELEPORTER 0 0 0 100 0 false false false
+2 R S TELEPORTER 0 0 0 100 0 false false false
+2 B S TELEPORTER 0 0 0 100 0 false false false
+

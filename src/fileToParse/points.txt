@@ -1,0 +1,13 @@
+//Parsing number of movements in actions / number of actions etc.
+//in order: max number of actions, movements before shoot, can reload before shoot, run movements, grab movements
+@SETNORMAL: 2 0 false 3 1
+@SETADRENALINE1: 2 0 false 3 2
+@SETADRENALINE2: 2 1 false 3 2
+@SETFRENZYBEFORE: 2 1 true 4 2
+@SETFRENZYAFTER: 1 2 true 0 3
+
+//Parsing points
+@SETNORMALPOINTS: 8 6 4 2 1 1
+@SETFRENZYPOINTS: 2 1 1 1
+@SETNORMALFB: 1
+@SETFRENZYFB: 0

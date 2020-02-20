@@ -1,0 +1,2539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="3480.0" y="3179.0">model.exceptions.InvalidColorException</node>
+    <node x="8851.25" y="1871.0">network.requests.GamesStatusRequest</node>
+    <node x="4485.0" y="3179.0">view.gui.PaneToUpdate</node>
+    <node x="3415.25" y="2678.0">network.response.ActiveTurnResponse</node>
+    <node x="12644.990521266342" y="1871.0">view.gui.PlayerAmmoPane</node>
+    <node x="15433.203182406747" y="2678.0">network.PlayerCountdown</node>
+    <node x="3232.25" y="2678.0">network.response.InactivityResponse</node>
+    <node x="12193.19052126634" y="2060.0">view.gui.KillShotTrackPane</node>
+    <node x="16220.584624761621" y="89.0">controller.PowerUpController</node>
+    <node x="13703.082670883088" y="1871.0">view.gui.PlayerMarksPane</node>
+    <node x="13652.582670883088" y="2289.0">view.gui.PlayerPointsPane</node>
+    <node x="5564.25" y="2678.0">network.response.MapInfoResponse</node>
+    <node x="14205.61391870224" y="3026.0">network.ServerController</node>
+    <node x="8041.25" y="1871.0">network.requests.AlreadyExistingTokenRequest</node>
+    <node x="16116.191767618766" y="2678.0">network.MyTimer</node>
+    <node x="13291.789959894704" y="89.0">model.enums.TileLinks</node>
+    <node x="14001.832670883088" y="2289.0">view.gui.PowerUpPane</node>
+    <node x="15583.397170549168" y="89.0">controller.WeaponController</node>
+    <node x="1101.25" y="2678.0">view.cli.CLIListener</node>
+    <node x="11485.077205882353" y="1871.0">network.requests.ChooseTileRequest</node>
+    <node x="12456.334624761623" y="2289.0">view.gui.GameBoardPane</node>
+    <node x="5409.25" y="2678.0">network.response.QuitResponse</node>
+    <node x="5262.00825534764" y="258.0">network.ViewListener</node>
+    <node x="7390.25" y="1342.0">model.enums.TypeOfEffect</node>
+    <node x="2115.0" y="3308.0">model.exceptions.WrongTargetException</node>
+    <node x="5291.25" y="2678.0">network.response.SynPing</node>
+    <node x="1447.25" y="2678.0">network.response.ChooseEffectResponse</node>
+    <node x="11982.54629049711" y="2060.0">view.gui.HSpawnPointTileBox</node>
+    <node x="2662.6322702803955" y="2060.0">view.ViewClient</node>
+    <node x="895.1616993529606" y="3026.0">network.ClientRmi</node>
+    <node x="400.0" y="3308.0">model.exceptions.GrabException</node>
+    <node x="1669.4195983664486" y="3026.0">view.gui.ChooseGameScene</node>
+    <node x="10720.661764705883" y="1871.0">network.requests.ChooseDirectionRequest</node>
+    <node x="3908.0" y="3179.0">view.gui.BtnWeaponDeck</node>
+    <node x="3244.0" y="3179.0">network.PersistenceCountdown</node>
+    <node x="6713.25" y="2678.0">network.response.ChooseTargetResponse</node>
+    <node x="14506.084044509462" y="2060.0">model.utility.CurrentTurn</node>
+    <node x="6462.25" y="2678.0">network.response.UpdateEnemyPlayerResponse</node>
+    <node x="15588.833311908727" y="437.0">network.ViewProxy</node>
+    <node x="43.25" y="2060.0">network.response.ResponseHandler</node>
+    <node x="3706.0" y="3179.0">model.utility.TurnStateHandler</node>
+    <node x="2587.25" y="2678.0">network.response.LobbyStatusResponse</node>
+    <node x="3840.25" y="2678.0">network.response.LostConnectionResponse</node>
+    <node x="13875.082670883088" y="1871.0">network.requests.ChoosePowerUpRequest</node>
+    <node x="10071.25" y="1871.0">network.requests.TokenGenerationRequest</node>
+    <node x="5002.50825534764" y="1871.0">network.requests.ChooseEffectRequest</node>
+    <node x="2131.25" y="2678.0">network.response.ChooseWeaponResponse</node>
+    <node x="13697.582670883088" y="1342.0">view.gui.DamageImagePane</node>
+    <node x="12507.09544431151" y="1342.0">view.gui.BtnAmmo</node>
+    <node x="2809.1695983664486" y="2877.0">view.cli.CLIView</node>
+    <node x="13101.834624761623" y="2060.0">view.gui.PlayerBoardPane</node>
+    <node x="12994.678021266342" y="437.0">model.board.PointsBoard</node>
+    <node x="10887.703190949598" y="3026.0">view.gui.VoidSpaceButton</node>
+    <node x="11339.077205882353" y="1342.0">model.enums.Direction</node>
+    <node x="5024.0" y="3179.0">view.gui.InactiveScene</node>
+    <node x="9952.25" y="1871.0">network.requests.AckPing</node>
+    <node x="13838.832670883088" y="2289.0">view.gui.GUILogger</node>
+    <node x="4104.0" y="3179.0">network.SaveGameUtility</node>
+    <node x="9125.065929708466" y="1342.0">network.requests.Request</node>
+    <node x="130.25" y="2289.0">network.ResponseDecoder</node>
+    <node x="12449.5833784092" y="3026.0">view.gui.BtnTile</node>
+    <node x="1237.25" y="2678.0">network.response.ChooseRoomResponse</node>
+    <node x="12288.084624761623" y="1871.0">view.gui.BtnEnemySymbol</node>
+    <node x="8513.25" y="1871.0">network.requests.CreateGameRequest</node>
+    <node x="12811.90794431151" y="437.0">model.board.TurnAction</node>
+    <node x="15938.191767618766" y="2060.0">network.ManagerObserver</node>
+    <node x="11217.478926243717" y="1024.0">model.weapon.Weapon</node>
+    <node x="5742.25" y="2678.0">network.response.UpdateWeaponsPowPointsResponse</node>
+    <node x="3610.25" y="2678.0">network.response.TokenGeneratedResponse</node>
+    <node x="2357.25" y="2678.0">network.response.ChooseDirectionResponse</node>
+    <node x="426.29103793357353" y="2060.0">network.Client</node>
+    <node x="4430.25" y="2678.0">network.response.MultiTextResponse</node>
+    <node x="8304.25" y="1871.0">model.utility.PossibleChoices_Client</node>
+    <node x="4066.25" y="2678.0">network.response.TextResponse</node>
+    <node x="5879.0" y="3179.0">model.board.InitMap</node>
+    <node x="1113.0" y="3308.0">model.exceptions.ShootingException</node>
+    <node x="627.6243712669075" y="756.0">model.weapon.actions.Action</node>
+    <node x="9051.25" y="1871.0">network.requests.WakeRequest</node>
+    <node x="2519.0" y="3308.0">model.exceptions.WrongRoomException</node>
+    <node x="14023.582670883088" y="2060.0">view.gui.BtnPowerUp</node>
+    <node x="274.0" y="2678.0">network.ClientSocket</node>
+    <node x="13676.905893960637" y="437.0">model.enums.PlayerState</node>
+    <node x="12372.19052126634" y="2060.0">view.gui.PlayerSymbolsPane</node>
+    <node x="12559.19052126634" y="2060.0">model.gamemodes.NormalGameMode</node>
+    <node x="10684.208755020409" y="89.0">model.enums.RoomColor</node>
+    <node x="9588.25" y="1871.0">network.requests.GetLobbiesRequest</node>
+    <node x="11186.077205882353" y="1342.0">model.enums.TypeOfAction</node>
+    <node x="431.0" y="2289.0">network.ConnectionClientTimer</node>
+    <node x="9053.214137700583" y="2877.0">network.RemoteController</node>
+    <node x="10818.036764705883" y="1163.0">model.board.TileView</node>
+    <node x="14208.476901652319" y="2060.0">model.gamemodes.Gamemodes</node>
+    <node x="1917.25" y="2678.0">network.response.ChooseAmmoResponse</node>
+    <node x="13247.63294431151" y="2678.0">view.gui.PlayingScene</node>
+    <node x="0.0" y="3308.0">model.exceptions.WeaponsException</node>
+    <node x="15427.647893061212" y="2289.0">model.board.GameManager</node>
+    <node x="12271.5833784092" y="3026.0">view.gui.PlayerDeathsPane</node>
+    <node x="2440.088656981192" y="2289.0">network.ClientController</node>
+    <node x="15798.691767618766" y="2678.0">network.NetworkCountdown</node>
+    <node x="15090.88899835624" y="89.0">model.powerup.PowerUpEffect</node>
+    <node x="10904.291426243717" y="437.0">model.enums.PlayerColor</node>
+    <node x="4847.0" y="3179.0">run.LaunchServer</node>
+    <node x="12381.69052126634" y="2877.0">view.gui.GUIViewJavaFX</node>
+    <node x="9996.25" y="2060.0">model.board.KillShotTrack</node>
+    <node x="760.0" y="3308.0">model.exceptions.PowerUpException</node>
+    <node x="3005.0" y="3179.0">model.exceptions.InvalidGameIdException</node>
+    <node x="187.0" y="3308.0">model.exceptions.WrongChoiceException</node>
+    <node x="6928.25" y="2678.0">network.response.UpdateCurrentPlayerResponse</node>
+    <node x="9372.25" y="1871.0">network.requests.ChooseNothingRequest</node>
+    <node x="7845.25" y="1871.0">network.requests.PlayerCreateRequest</node>
+    <node x="2750.0" y="3179.0">model.exceptions.InvalidUsernameException</node>
+    <node x="4669.0" y="3179.0">model.player.ShootHandler</node>
+    <node x="12698.81454780679" y="2289.0">view.gui.EnemiesBoardPane</node>
+    <node x="13411.582670883088" y="2289.0">view.gui.EnemyWeaponsPane</node>
+    <node x="15201.691126593127" y="258.0">model.board.Tile</node>
+    <node x="15297.079016671258" y="89.0">model.enums.TurnState</node>
+    <node x="1524.0" y="3308.0">model.exceptions.WrongCommandException</node>
+    <node x="6039.25" y="2678.0">network.response.GamesStatusResponse</node>
+    <node x="945.0" y="3308.0">model.exceptions.AmmoException</node>
+    <node x="2326.0" y="3308.0">model.exceptions.MovementException</node>
+    <node x="15044.438918702239" y="258.0">model.enums.PowerUpUse</node>
+    <node x="13502.742729157228" y="89.0">model.board.AmmoTile</node>
+    <node x="15304.857121432538" y="2060.0">model.board.Deck</node>
+    <node x="2794.25" y="2678.0">view.cli.CommandParsing</node>
+    <node x="5374.0" y="3179.0">model.player.GrabHandler</node>
+    <node x="621.6243712669075" y="437.0">model.weapon.actions.Visitable</node>
+    <node x="8117.4375" y="756.0">model.utility.Visibility</node>
+    <node x="2618.125985067245" y="2289.0">model.utility.LobbyInfo</node>
+    <node x="10501.25" y="1871.0">network.requests.ChooseActionRequest</node>
+    <node x="1298.0" y="3308.0">model.exceptions.WrongDirectionException</node>
+    <node x="481.6904316997825" y="1024.0">model.weapon.actions.MovementAction</node>
+    <node x="13216.582670883088" y="2289.0">view.gui.EnemyPowerUpPane</node>
+    <node x="11167.978926243717" y="905.0">model.enums.LoadedState</node>
+    <node x="15856.975274013594" y="2877.0">network.NetworkManager</node>
+    <node x="15106.703275278693" y="437.0">model.powerup.PowerUp</node>
+    <node x="5545.0" y="3179.0">view.cli.MapDrawing</node>
+    <node x="14831.060357362356" y="1871.0">model.utility.PossibleChoices</node>
+    <node x="639.0" y="2289.0">network.RetryConnectionTask</node>
+    <node x="6249.25" y="2678.0">network.response.PlayerCreatedResponse</node>
+    <node x="13501.582670883088" y="2060.0">view.gui.MapGridPane</node>
+    <node x="14240.61391870224" y="3105.0">network.AdrenalineServer</node>
+    <node x="1226.25" y="3179.0">model.exceptions.GameException</node>
+    <node x="14353.476901652319" y="1871.0">model.utility.MapInfo</node>
+    <node x="4222.25" y="2678.0">network.response.GameStartedResponse</node>
+    <node x="7185.25" y="2678.0">network.response.ChooseTileResponse</node>
+    <node x="12740.19052126634" y="2060.0">model.gamemodes.FinalFrenzyGameMode</node>
+    <node x="8094.4375" y="905.0">model.weapon.Effect</node>
+    <node x="5201.0" y="3179.0">run.LaunchClient</node>
+    <node x="11732.315667420815" y="2060.0">view.gui.VSpawnPointTileBox</node>
+    <node x="851.0" y="1871.0">network.requests.ChooseRoomRequest</node>
+    <node x="11028.577205882353" y="1871.0">network.requests.ChooseWeaponRequest</node>
+    <node x="4808.25" y="2678.0">network.response.PrintHelpResponse</node>
+    <node x="8163.8822702803955" y="2060.0">model.utility.MapInfoView</node>
+    <node x="11993.79531703756" y="2289.0">view.gui.WeaponPane</node>
+    <node x="5714.0" y="3179.0">model.player.RunHandler</node>
+    <node x="8707.25" y="1871.0">network.requests.QuitRequest</node>
+    <node x="4297.0" y="3179.0">model.gamemodes.BoardStructure</node>
+    <node x="7220.375985067245" y="3026.0">view.gui.GUIListener</node>
+    <node x="15097.234044509461" y="756.0">model.player.Player</node>
+    <node x="8871.875985067245" y="2289.0">network.ClientContext</node>
+    <node x="0.0" y="3105.0">network.ClientHandler</node>
+    <node x="11429.435701652945" y="2678.0">network.notify</node>
+    <node x="1923.0" y="3308.0">model.exceptions.WrongTileException</node>
+    <node x="11002.724264705883" y="1342.0">model.player.PlayerView</node>
+    <node x="16054.584624761621" y="89.0">controller.EffectController</node>
+    <node x="15807.084624761621" y="258.0">controller.TurnStateController</node>
+    <node x="15432.999978575395" y="756.0">network.ConnectionServerTimer</node>
+    <node x="9776.25" y="1871.0">network.requests.PrintHelpRequest</node>
+    <node x="10296.25" y="1871.0">network.requests.ChooseTargetRequest</node>
+    <node x="578.3125" y="905.0">model.weapon.InitWeapons</node>
+    <node x="1660.25" y="2678.0">network.response.ChooseTypeOfEffectResponse</node>
+    <node x="4615.25" y="2678.0">network.response.ValidGameResponse</node>
+    <node x="13018.43954780679" y="2289.0">view.gui.ZoomPane</node>
+    <node x="392.3125" y="905.0">model.enums.ForcedMovement</node>
+    <node x="14197.351901652319" y="1871.0">model.gamemodes.GameMode</node>
+    <node x="7629.25" y="1871.0">network.requests.ChooseAmmoRequest</node>
+    <node x="13519.082670883088" y="1871.0">view.gui.PlayerDamagePane</node>
+    <node x="1757.0" y="3308.0">model.exceptions.EffectException</node>
+    <node x="14662.084044509462" y="1024.0">model.utility.CurrentTurn.EffectActions</node>
+    <node x="11449.898201652946" y="0.0">model.utility.Ammo</node>
+    <node x="8166.9375" y="258.0">model.enums.AmmoColor</node>
+    <node x="12560.5833784092" y="3026.0">view.gui.ScoreBoardScene</node>
+    <node x="906.5" y="1024.0">model.weapon.actions.MarkAction</node>
+    <node x="559.0" y="3308.0">model.exceptions.WrongTypeException</node>
+    <node x="7382.25" y="1871.0">network.requests.ChooseTypeOfEffectRequest</node>
+    <node x="664.0625" y="1024.0">model.weapon.actions.DamageAction</node>
+    <node x="4993.25" y="2678.0">network.response.SetNewPossibileCommandsResponse</node>
+    <node x="15963.906876212022" y="3026.0">network.ConnectionAckServerTimer</node>
+    <node x="15888.584624761621" y="89.0">controller.PlayerController</node>
+    <node x="12000.44039399239" y="1871.0">view.gui.BtnWeapon</node>
+    <node x="14977.167844510088" y="1342.0">model.utility.EndObserver</node>
+    <node x="2971.25" y="2678.0">network.response.AlreadyExistingTokenResponse</node>
+    <node x="4523.8822702803955" y="2289.0">network.response.Response</node>
+    <node x="9203.25" y="1871.0">network.requests.MapInfoRequest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.utility.LobbyInfo" target="model.enums.PlayerColor">
+      <point x="-27.5" y="-14.5" />
+      <point x="2645.625985067245" y="2249.0" />
+      <point x="2816.1695983664486" y="2249.0" />
+      <point x="2816.1695983664486" y="536.0" />
+      <point x="10911.666426243717" y="536.0" />
+      <point x="-51.625" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIViewJavaFX" target="network.ClientController">
+      <point x="-63.69230769230853" y="-14.5" />
+      <point x="12389.998213574032" y="2837.0" />
+      <point x="6028.75" y="2837.0" />
+      <point x="6028.75" y="2468.0" />
+      <point x="2573.802942695478" y="2468.0" />
+      <point x="61.714285714286234" y="14.5" />
+    </edge>
+    <edge source="network.ClientContext" target="model.player.PlayerView">
+      <point x="24.75" y="-14.5" />
+      <point x="8962.625985067245" y="2249.0" />
+      <point x="9577.75" y="2249.0" />
+      <point x="9577.75" y="1731.0" />
+      <point x="11019.488970588236" y="1731.0" />
+      <point x="-40.235294117646845" y="14.5" />
+    </edge>
+    <edge source="view.gui.BtnWeapon" target="view.gui.GUIViewJavaFX">
+      <point x="-24.200000000000728" y="14.5" />
+      <point x="12036.74039399239" y="1930.0" />
+      <point x="11917.815667420815" y="1930.0" />
+      <point x="11917.815667420815" y="2787.0" />
+      <point x="12417.69052126634" y="2787.0" />
+      <point x="-36.0" y="-14.5" />
+    </edge>
+    <edge source="network.requests.ChoosePowerUpRequest" target="network.requests.Request">
+      <point x="-50.25" y="-14.5" />
+      <point x="13925.332670883088" y="1511.0" />
+      <point x="9220.838656981192" y="1511.0" />
+      <point x="46.772727272727025" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIListener" target="network.ViewListener">
+      <point x="0.0" y="-14.5" />
+      <point x="7280.375985067245" y="2946.0" />
+      <point x="7371.75" y="2946.0" />
+      <point x="7371.75" y="1322.0" />
+      <point x="7749.5" y="1322.0" />
+      <point x="7749.5" y="397.0" />
+      <point x="5335.50825534764" y="397.0" />
+      <point x="10.5" y="14.5" />
+    </edge>
+    <edge source="network.PlayerCountdown" target="model.board.GameManager">
+      <point x="0.0" y="-14.5" />
+      <point x="15511.703182406747" y="2658.0" />
+      <point x="15495.647893061212" y="2658.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="controller.TurnStateController" target="model.enums.TurnState">
+      <point x="-68.0" y="-14.5" />
+      <point x="15824.084624761621" y="148.0" />
+      <point x="15387.912350004592" y="148.0" />
+      <point x="36.33333333333303" y="14.5" />
+    </edge>
+    <edge source="model.powerup.PowerUpEffect" target="model.utility.Ammo">
+      <point x="0.0" y="-14.5" />
+      <point x="15161.38899835624" y="59.0" />
+      <point x="11515.148201652946" y="59.0" />
+      <point x="21.75" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.ViewProxy">
+      <point x="27.32142857142844" y="-14.5" />
+      <point x="15960.796702585023" y="2817.0" />
+      <point x="16105.691767618766" y="2817.0" />
+      <point x="16105.691767618766" y="736.0" />
+      <point x="15654.166645242061" y="736.0" />
+      <point x="9.33333333333303" y="14.5" />
+    </edge>
+    <edge source="network.AdrenalineServer" target="network.ServerController">
+      <point x="0.0" y="-14.5" />
+      <point x="37.0" y="14.5" />
+    </edge>
+    <edge source="view.cli.CLIView" target="view.cli.CLIListener">
+      <point x="-36.0" y="-14.5" />
+      <point x="2821.1695983664486" y="2857.0" />
+      <point x="1159.25" y="2857.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.LostConnectionResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3943.25" y="2628.0" />
+      <point x="4566.709856487292" y="2628.0" />
+      <point x="-11.17241379310326" y="14.5" />
+    </edge>
+    <edge source="view.gui.MapGridPane" target="view.gui.GUIViewJavaFX">
+      <point x="32.5" y="14.5" />
+      <point x="13599.082670883088" y="2787.0" />
+      <point x="12484.15205972788" y="2787.0" />
+      <point x="30.46153846153902" y="-14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.enums.TypeOfAction">
+      <point x="66.14999999999964" y="-14.5" />
+      <point x="8464.9" y="1811.0" />
+      <point x="11202.702205882353" y="1811.0" />
+      <point x="-49.875" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.weapon.Weapon">
+      <point x="9.450000000000728" y="-14.5" />
+      <point x="8408.2" y="1551.0" />
+      <point x="8248.9375" y="1551.0" />
+      <point x="8248.9375" y="1103.0" />
+      <point x="11238.103926243717" y="1103.0" />
+      <point x="-28.875" y="14.5" />
+    </edge>
+    <edge source="view.gui.PowerUpPane" target="view.gui.BtnPowerUp">
+      <point x="0.0" y="-14.5" />
+      <point x="14068.832670883088" y="2269.0" />
+      <point x="14086.582670883088" y="2269.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.GameStartedResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4316.25" y="2648.0" />
+      <point x="4574.158132349361" y="2648.0" />
+      <point x="-3.72413793103442" y="14.5" />
+    </edge>
+    <edge source="network.response.MapInfoResponse" target="model.utility.MapInfoView">
+      <point x="0.0" y="-14.5" />
+      <point x="5643.25" y="2568.0" />
+      <point x="7571.50825534764" y="2568.0" />
+      <point x="7571.50825534764" y="2269.0" />
+      <point x="8201.982270280396" y="2269.0" />
+      <point x="-25.399999999999636" y="14.5" />
+    </edge>
+    <edge source="view.gui.ChooseGameScene" target="view.gui.GUIViewJavaFX">
+      <point x="41.75" y="-14.5" />
+      <point x="1794.6695983664486" y="2966.0" />
+      <point x="12391.976235552054" y="2966.0" />
+      <point x="-61.714285714286234" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerMarksPane" target="view.gui.GUIViewJavaFX">
+      <point x="38.0" y="14.5" />
+      <point x="13817.082670883088" y="2817.0" />
+      <point x="12500.767444343264" y="2817.0" />
+      <point x="47.07692307692378" y="-14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.powerup.PowerUp">
+      <point x="24.285714285714675" y="-14.5" />
+      <point x="15519.933607346928" y="2119.0" />
+      <point x="15412.785692861109" y="2119.0" />
+      <point x="15412.785692861109" y="646.0" />
+      <point x="15207.236608612026" y="646.0" />
+      <point x="48.53333333333285" y="14.5" />
+    </edge>
+    <edge source="view.gui.EnemiesBoardPane" target="view.gui.PlayerBoardPane">
+      <point x="41.5" y="-14.5" />
+      <point x="12823.31454780679" y="2239.0" />
+      <point x="13177.834624761623" y="2239.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.ClientRmi" target="network.Client">
+      <point x="-35.0" y="-14.5" />
+      <point x="912.6616993529606" y="3006.0" />
+      <point x="409.5" y="3006.0" />
+      <point x="409.5" y="2199.0" />
+      <point x="460.8743712669075" y="2199.0" />
+      <point x="-6.91666666666606" y="14.5" />
+    </edge>
+    <edge source="model.board.Tile" target="model.enums.TileLinks">
+      <point x="0.0" y="-14.5" />
+      <point x="15236.191126593127" y="188.0" />
+      <point x="13367.539959894704" y="188.0" />
+      <point x="25.25" y="14.5" />
+    </edge>
+    <edge source="network.notify" target="model.weapon.Weapon">
+      <point x="18.450000000000045" y="-14.5" />
+      <point x="11509.385701652945" y="2338.0" />
+      <point x="11474.577205882353" y="2338.0" />
+      <point x="11474.577205882353" y="1143.0" />
+      <point x="11279.353926243717" y="1143.0" />
+      <point x="12.375" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerDamagePane" target="view.gui.GUIViewJavaFX">
+      <point x="41.0" y="14.5" />
+      <point x="13642.082670883088" y="2797.0" />
+      <point x="12489.69052126634" y="2797.0" />
+      <point x="36.0" y="-14.5" />
+    </edge>
+    <edge source="network.requests.ChooseEffectRequest" target="network.requests.Request">
+      <point x="45.5" y="-14.5" />
+      <point x="5139.00825534764" y="1621.0" />
+      <point x="9131.747747890284" y="1621.0" />
+      <point x="-42.31818181818198" y="14.5" />
+    </edge>
+    <edge source="model.utility.MapInfo" target="model.board.Tile">
+      <point x="32.66666666666697" y="-14.5" />
+      <point x="14435.143568318987" y="1841.0" />
+      <point x="14432.226901652319" y="1841.0" />
+      <point x="14432.226901652319" y="377.0" />
+      <point x="15213.191126593127" y="377.0" />
+      <point x="-23.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.GameBoardPane" target="view.gui.KillShotTrackPane">
+      <point x="18.75" y="-14.5" />
+      <point x="12550.084624761623" y="2229.0" />
+      <point x="12272.69052126634" y="2229.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.board.TurnAction">
+      <point x="-32.69230769230762" y="-14.5" />
+      <point x="15107.041736817155" y="506.0" />
+      <point x="12914.28294431151" y="506.0" />
+      <point x="43.875" y="14.5" />
+    </edge>
+    <edge source="network.ConnectionAckServerTimer" target="network.NetworkManager">
+      <point x="-53.75" y="-14.5" />
+      <point x="16017.656876212022" y="3006.0" />
+      <point x="15971.725274013594" y="3006.0" />
+      <point x="38.25" y="14.5" />
+    </edge>
+    <edge source="view.cli.CLIListener" target="view.ViewClient">
+      <point x="0.0" y="-14.5" />
+      <point x="1159.25" y="2229.0" />
+      <point x="2702.6322702803955" y="2229.0" />
+      <point x="-16.0" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseDirectionRequest" target="model.enums.Direction">
+      <point x="50.0" y="-14.5" />
+      <point x="10870.661764705883" y="1841.0" />
+      <point x="11369.977205882353" y="1841.0" />
+      <point x="-20.600000000000364" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTargetRequest" target="model.player.PlayerView">
+      <point x="46.25" y="-14.5" />
+      <point x="10435.0" y="1761.0" />
+      <point x="11039.60661764706" y="1761.0" />
+      <point x="-20.117647058823422" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="controller.TurnStateController">
+      <point x="71.03571428571468" y="-14.5" />
+      <point x="16004.51098829931" y="2857.0" />
+      <point x="16237.620339047338" y="2857.0" />
+      <point x="16237.620339047338" y="417.0" />
+      <point x="15955.834624761621" y="417.0" />
+      <point x="63.75" y="14.5" />
+    </edge>
+    <edge source="view.cli.CLIView" target="view.ViewClient">
+      <point x="36.0" y="-14.5" />
+      <point x="2893.1695983664486" y="2857.0" />
+      <point x="2960.75" y="2857.0" />
+      <point x="2960.75" y="2239.0" />
+      <point x="2734.6322702803955" y="2239.0" />
+      <point x="16.0" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.WrongTileException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="2009.0" y="3258.0" />
+      <point x="1334.25" y="3258.0" />
+      <point x="36.0" y="14.5" />
+    </edge>
+    <edge source="model.board.TileView" target="model.board.AmmoTile">
+      <point x="12.25" y="-14.5" />
+      <point x="10879.286764705883" y="1073.0" />
+      <point x="10872.536764705883" y="1073.0" />
+      <point x="10872.536764705883" y="228.0" />
+      <point x="13516.242729157228" y="228.0" />
+      <point x="-40.5" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTypeOfEffectRequest" target="model.enums.TypeOfEffect">
+      <point x="-56.75" y="-14.5" />
+      <point x="-16.25" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseDirectionResponse" target="network.response.Response">
+      <point x="52.5" y="-14.5" />
+      <point x="2514.75" y="2568.0" />
+      <point x="4544.365028901086" y="2568.0" />
+      <point x="-33.51724137930978" y="14.5" />
+    </edge>
+    <edge source="network.notify" target="network.response.Response">
+      <point x="-55.35000000000002" y="-14.5" />
+      <point x="11435.585701652944" y="2398.0" />
+      <point x="4630.020201314877" y="2398.0" />
+      <point x="52.13793103448188" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerBoardPane" target="view.gui.PlayerAmmoPane">
+      <point x="-57.0" y="-14.5" />
+      <point x="13120.834624761623" y="1930.0" />
+      <point x="12760.490521266342" y="1930.0" />
+      <point x="38.5" y="14.5" />
+    </edge>
+    <edge source="view.gui.VSpawnPointTileBox" target="view.gui.GUIViewJavaFX">
+      <point x="-43.75" y="14.5" />
+      <point x="11776.065667420815" y="2797.0" />
+      <point x="12412.15205972788" y="2797.0" />
+      <point x="-41.53846153846098" y="-14.5" />
+    </edge>
+    <edge source="network.response.LobbyStatusResponse" target="model.utility.LobbyInfo">
+      <point x="-46.5" y="-14.5" />
+      <point x="2633.75" y="2508.0" />
+      <point x="2673.125985067245" y="2508.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.AlreadyExistingTokenResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3091.75" y="2588.0" />
+      <point x="4551.8133047631545" y="2588.0" />
+      <point x="-26.06896551724094" y="14.5" />
+    </edge>
+    <edge source="network.ClientHandler" target="network.ServerController">
+      <point x="32.75" y="-14.5" />
+      <point x="98.25" y="3080.0" />
+      <point x="14242.61391870224" y="3080.0" />
+      <point x="-37.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.BtnEnemySymbol" target="model.player.PlayerView">
+      <point x="0.0" y="-14.5" />
+      <point x="12366.084624761623" y="1531.0" />
+      <point x="11099.95955882353" y="1531.0" />
+      <point x="40.235294117646845" y="14.5" />
+    </edge>
+    <edge source="network.response.SynPing" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="5340.25" y="2618.0" />
+      <point x="4592.778822004533" y="2618.0" />
+      <point x="14.89655172413768" y="14.5" />
+    </edge>
+    <edge source="model.weapon.Effect" target="model.player.Player">
+      <point x="31.875" y="-14.5" />
+      <point x="8168.8125" y="855.0" />
+      <point x="15101.956266731684" y="855.0" />
+      <point x="-37.77777777777783" y="14.5" />
+    </edge>
+    <edge source="network.response.TokenGeneratedResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3715.25" y="2618.0" />
+      <point x="4562.985718556258" y="2618.0" />
+      <point x="-14.89655172413768" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTargetRequest" target="network.requests.Request">
+      <point x="-46.25" y="-14.5" />
+      <point x="10342.5" y="1631.0" />
+      <point x="9198.565929708466" y="1631.0" />
+      <point x="24.5" y="14.5" />
+    </edge>
+    <edge source="network.response.PlayerCreatedResponse" target="network.response.Response">
+      <point x="-48.25" y="-14.5" />
+      <point x="6297.5" y="2448.0" />
+      <point x="4611.399511659705" y="2448.0" />
+      <point x="33.51724137930978" y="14.5" />
+    </edge>
+    <edge source="model.board.KillShotTrack" target="model.enums.PlayerColor">
+      <point x="0.0" y="-14.5" />
+      <point x="10060.75" y="566.0" />
+      <point x="10955.916426243717" y="566.0" />
+      <point x="-7.375" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseNothingRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="9469.75" y="1681.0" />
+      <point x="9176.29320243574" y="1681.0" />
+      <point x="2.2272727272729753" y="14.5" />
+    </edge>
+    <edge source="model.weapon.Effect" target="model.utility.Ammo">
+      <point x="-10.625" y="-14.5" />
+      <point x="8126.3125" y="825.0" />
+      <point x="8106.9375" y="825.0" />
+      <point x="8106.9375" y="49.0" />
+      <point x="11457.148201652946" y="49.0" />
+      <point x="-36.25" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.board.PointsBoard">
+      <point x="-26.15384615384619" y="-14.5" />
+      <point x="15113.580198355616" y="496.0" />
+      <point x="13103.178021266342" y="496.0" />
+      <point x="46.5" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.PowerUpPane">
+      <point x="58.04999999999927" y="-14.5" />
+      <point x="13370.18294431151" y="2658.0" />
+      <point x="14035.332670883088" y="2658.0" />
+      <point x="-33.5" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateWeaponsPowPointsResponse" target="model.weapon.Weapon">
+      <point x="92.0" y="-14.5" />
+      <point x="5972.25" y="2588.0" />
+      <point x="7834.75" y="2588.0" />
+      <point x="7834.75" y="1322.0" />
+      <point x="7959.875" y="1322.0" />
+      <point x="7959.875" y="1093.0" />
+      <point x="11229.853926243717" y="1093.0" />
+      <point x="-37.125" y="14.5" />
+    </edge>
+    <edge source="network.NetworkCountdown" target="controller.TurnStateController">
+      <point x="43.0" y="-14.5" />
+      <point x="15927.691767618766" y="417.0" />
+      <point x="15913.334624761621" y="417.0" />
+      <point x="21.25" y="14.5" />
+    </edge>
+    <edge source="view.gui.ZoomPane" target="view.gui.BtnPowerUp">
+      <point x="28.5" y="-14.5" />
+      <point x="13103.93954780679" y="2269.0" />
+      <point x="14044.582670883088" y="2269.0" />
+      <point x="-42.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.enums.RoomColor">
+      <point x="-66.14999999999964" y="-14.5" />
+      <point x="8332.6" y="1591.0" />
+      <point x="8080.25" y="1591.0" />
+      <point x="8080.25" y="238.0" />
+      <point x="10732.54208835374" y="238.0" />
+      <point x="-9.66666666666697" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseDirectionRequest" target="network.requests.Request">
+      <point x="-50.0" y="-14.5" />
+      <point x="10770.661764705883" y="1611.0" />
+      <point x="9207.475020617556" y="1611.0" />
+      <point x="33.40909090909099" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateWeaponsPowPointsResponse" target="network.response.Response">
+      <point x="-92.0" y="-14.5" />
+      <point x="5788.25" y="2558.0" />
+      <point x="4603.951235797636" y="2558.0" />
+      <point x="26.06896551724094" y="14.5" />
+    </edge>
+    <edge source="network.requests.AlreadyExistingTokenRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="8156.75" y="1661.0" />
+      <point x="9149.565929708466" y="1661.0" />
+      <point x="-24.5" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.NormalGameMode" target="model.board.TurnAction">
+      <point x="-53.666666666666515" y="-14.5" />
+      <point x="12586.023854599674" y="1980.0" />
+      <point x="12836.34544431151" y="1980.0" />
+      <point x="12836.34544431151" y="536.0" />
+      <point x="12855.78294431151" y="536.0" />
+      <point x="-14.625" y="14.5" />
+    </edge>
+    <edge source="controller.TurnStateController" target="controller.PlayerController">
+      <point x="0.0" y="-14.5" />
+      <point x="15892.084624761621" y="218.0" />
+      <point x="15961.584624761621" y="218.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.player.PlayerView">
+      <point x="47.25" y="-14.5" />
+      <point x="8446.0" y="1721.0" />
+      <point x="11012.783088235296" y="1721.0" />
+      <point x="-46.94117647058738" y="14.5" />
+    </edge>
+    <edge source="view.cli.CLIListener" target="network.ViewListener">
+      <point x="-38.66666666666788" y="-14.5" />
+      <point x="1120.5833333333321" y="2478.0" />
+      <point x="840.5" y="2478.0" />
+      <point x="840.5" y="1591.0" />
+      <point x="5099.00825534764" y="1591.0" />
+      <point x="5099.00825534764" y="397.0" />
+      <point x="5314.50825534764" y="397.0" />
+      <point x="-10.5" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.utility.CurrentTurn.EffectActions">
+      <point x="-19.076923076922867" y="-14.5" />
+      <point x="14549.00712143254" y="1960.0" />
+      <point x="14732.853275278692" y="1960.0" />
+      <point x="14732.853275278692" y="1143.0" />
+      <point x="14761.084044509462" y="1143.0" />
+      <point x="32.999999999999545" y="14.5" />
+    </edge>
+    <edge source="model.powerup.PowerUp" target="model.enums.AmmoColor">
+      <point x="-39.0" y="-14.5" />
+      <point x="15119.703275278693" y="337.0" />
+      <point x="8274.9375" y="337.0" />
+      <point x="48.0" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.WrongRoomException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="2612.0" y="3228.0" />
+      <point x="1365.107142857143" y="3228.0" />
+      <point x="66.85714285714289" y="14.5" />
+    </edge>
+    <edge source="network.NetworkCountdown" target="model.board.GameManager">
+      <point x="-43.0" y="-14.5" />
+      <point x="15841.691767618766" y="2658.0" />
+      <point x="15540.981226394546" y="2658.0" />
+      <point x="45.33333333333303" y="14.5" />
+    </edge>
+    <edge source="model.weapon.actions.MovementAction" target="model.enums.ForcedMovement">
+      <point x="-57.0" y="-14.5" />
+      <point x="500.6904316997825" y="1004.0" />
+      <point x="469.3125" y="1004.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.enums.Direction">
+      <point x="85.04999999999927" y="-14.5" />
+      <point x="8483.8" y="1831.0" />
+      <point x="11349.377205882354" y="1831.0" />
+      <point x="-41.19999999999982" y="14.5" />
+    </edge>
+    <edge source="network.ConnectionClientTimer" target="network.Client">
+      <point x="0.0" y="-14.5" />
+      <point x="525.0" y="2199.0" />
+      <point x="474.7077046002396" y="2199.0" />
+      <point x="6.91666666666606" y="14.5" />
+    </edge>
+    <edge source="view.gui.EnemiesBoardPane" target="view.gui.PlayerSymbolsPane">
+      <point x="-41.5" y="-14.5" />
+      <point x="12740.31454780679" y="2219.0" />
+      <point x="12497.44052126634" y="2219.0" />
+      <point x="41.75" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseAmmoResponse" target="network.response.Response">
+      <point x="48.5" y="-14.5" />
+      <point x="2062.75" y="2548.0" />
+      <point x="4536.916753039017" y="2548.0" />
+      <point x="-40.96551724137862" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.WrongCommandException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="1630.5" y="3278.0" />
+      <point x="1313.6785714285716" y="3278.0" />
+      <point x="15.428571428571558" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn.EffectActions" target="model.utility.CurrentTurn">
+      <point x="-33.0" y="14.5" />
+      <point x="14695.084044509462" y="1143.0" />
+      <point x="14723.314813740231" y="1143.0" />
+      <point x="14723.314813740231" y="1950.0" />
+      <point x="14539.468659894077" y="1950.0" />
+      <point x="-28.615384615384755" y="-14.5" />
+    </edge>
+    <edge source="view.gui.GUILogger" target="view.gui.GUIViewJavaFX">
+      <point x="28.5" y="14.5" />
+      <point x="13924.332670883088" y="2827.0" />
+      <point x="12506.305905881725" y="2827.0" />
+      <point x="52.615384615384755" y="-14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.board.KillShotTrack">
+      <point x="-63.14285714285688" y="-14.5" />
+      <point x="15432.505035918355" y="2209.0" />
+      <point x="10103.75" y="2209.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="model.weapon.Effect" target="model.weapon.actions.Action">
+      <point x="-31.875" y="-14.5" />
+      <point x="8105.0625" y="835.0" />
+      <point x="695.6243712669075" y="835.0" />
+      <point x="24.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.weapon.Effect">
+      <point x="-47.25" y="-14.5" />
+      <point x="8351.5" y="1581.0" />
+      <point x="8136.9375" y="1581.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.notify" target="model.enums.TypeOfAction">
+      <point x="-18.450000000000045" y="-14.5" />
+      <point x="11472.485701652946" y="2368.0" />
+      <point x="11393.148201652946" y="2368.0" />
+      <point x="11393.148201652946" y="1571.0" />
+      <point x="11269.202205882353" y="1571.0" />
+      <point x="16.625" y="14.5" />
+    </edge>
+    <edge source="model.utility.MapInfo" target="model.enums.PlayerColor">
+      <point x="0.0" y="-14.5" />
+      <point x="14402.476901652319" y="526.0" />
+      <point x="11000.166426243717" y="526.0" />
+      <point x="36.875" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.FinalFrenzyGameMode" target="model.gamemodes.GameMode">
+      <point x="69.75" y="-14.5" />
+      <point x="12902.94052126634" y="2040.0" />
+      <point x="14241.226901652319" y="2040.0" />
+      <point x="-14.625" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerBoardPane" target="model.player.PlayerView">
+      <point x="-19.0" y="-14.5" />
+      <point x="13158.834624761623" y="2000.0" />
+      <point x="13249.928021266342" y="2000.0" />
+      <point x="13249.928021266342" y="1521.0" />
+      <point x="11106.66544117647" y="1521.0" />
+      <point x="46.94117647058738" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.board.TileView">
+      <point x="28.350000000000364" y="-14.5" />
+      <point x="8427.1" y="1601.0" />
+      <point x="8451.013656981193" y="1601.0" />
+      <point x="8451.013656981193" y="1322.0" />
+      <point x="10836.411764705883" y="1322.0" />
+      <point x="-30.625" y="14.5" />
+    </edge>
+    <edge source="controller.TurnStateController" target="controller.EffectController">
+      <point x="34.0" y="-14.5" />
+      <point x="15926.084624761621" y="228.0" />
+      <point x="16127.584624761621" y="228.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseRoomResponse" target="network.response.Response">
+      <point x="47.5" y="-14.5" />
+      <point x="1379.75" y="2518.0" />
+      <point x="4525.744339245914" y="2518.0" />
+      <point x="-52.13793103448188" y="14.5" />
+    </edge>
+    <edge source="view.gui.ChooseGameScene" target="network.ClientController">
+      <point x="-41.75" y="-14.5" />
+      <point x="1711.1695983664486" y="2946.0" />
+      <point x="1649.75" y="2946.0" />
+      <point x="1649.75" y="2508.0" />
+      <point x="2491.5172284097625" y="2508.0" />
+      <point x="-20.57142857142935" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.utility.Ammo">
+      <point x="32.69230769230762" y="-14.5" />
+      <point x="15172.426352201768" y="716.0" />
+      <point x="15262.818659894077" y="716.0" />
+      <point x="15262.818659894077" y="397.0" />
+      <point x="15572.897170549168" y="397.0" />
+      <point x="15572.897170549168" y="49.0" />
+      <point x="11529.648201652946" y="49.0" />
+      <point x="36.25" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.enums.RoomColor">
+      <point x="22.199999999999818" y="-14.5" />
+      <point x="14927.260357362356" y="1411.0" />
+      <point x="14831.953275278693" y="1411.0" />
+      <point x="14831.953275278693" y="1113.0" />
+      <point x="15033.938918702239" y="1113.0" />
+      <point x="15033.938918702239" y="208.0" />
+      <point x="10771.208755020409" y="208.0" />
+      <point x="29.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseWeaponResponse" target="model.weapon.Weapon">
+      <point x="-51.5" y="-14.5" />
+      <point x="2182.75" y="2428.0" />
+      <point x="1057.0" y="2428.0" />
+      <point x="1057.0" y="1083.0" />
+      <point x="11221.603926243717" y="1083.0" />
+      <point x="-45.375" y="14.5" />
+    </edge>
+    <edge source="view.gui.EnemiesBoardPane" target="view.gui.GUIViewJavaFX">
+      <point x="-41.5" y="14.5" />
+      <point x="12740.31454780679" y="2747.0" />
+      <point x="12461.998213574032" y="2747.0" />
+      <point x="8.307692307691468" y="-14.5" />
+    </edge>
+    <edge source="model.exceptions.WrongTypeException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="649.5" y="3258.0" />
+      <point x="1262.25" y="3258.0" />
+      <point x="-36.0" y="14.5" />
+    </edge>
+    <edge source="network.requests.PlayerCreateRequest" target="model.enums.PlayerColor">
+      <point x="-43.75" y="-14.5" />
+      <point x="7889.0" y="546.0" />
+      <point x="10926.416426243717" y="546.0" />
+      <point x="-36.875" y="14.5" />
+    </edge>
+    <edge source="view.gui.VoidSpaceButton" target="model.player.PlayerView">
+      <point x="-39.0" y="-14.5" />
+      <point x="10926.703190949598" y="2956.0" />
+      <point x="11007.294034986278" y="2956.0" />
+      <point x="11007.294034986278" y="1801.0" />
+      <point x="11066.430147058823" y="1801.0" />
+      <point x="6.7058823529405345" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.board.Tile">
+      <point x="34.0" y="-14.5" />
+      <point x="15529.647893061212" y="2109.0" />
+      <point x="15422.499978575395" y="2109.0" />
+      <point x="15422.499978575395" y="357.0" />
+      <point x="15266.857793259793" y="357.0" />
+      <point x="30.66666666666697" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.GameBoardPane">
+      <point x="-45.149999999999636" y="-14.5" />
+      <point x="13266.982944311509" y="2638.0" />
+      <point x="12568.834624761623" y="2638.0" />
+      <point x="37.5" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseWeaponResponse" target="network.response.Response">
+      <point x="51.5" y="-14.5" />
+      <point x="2285.75" y="2558.0" />
+      <point x="4540.640890970051" y="2558.0" />
+      <point x="-37.2413793103442" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseActionRequest" target="model.enums.TypeOfAction">
+      <point x="46.25" y="-14.5" />
+      <point x="10640.0" y="1821.0" />
+      <point x="11235.952205882353" y="1821.0" />
+      <point x="-16.625" y="14.5" />
+    </edge>
+    <edge source="model.utility.MapInfoView" target="model.enums.PlayerColor">
+      <point x="-42.33333333333394" y="-14.5" />
+      <point x="8185.0489369470615" y="2030.0" />
+      <point x="8030.75" y="2030.0" />
+      <point x="8030.75" y="556.0" />
+      <point x="10941.166426243717" y="556.0" />
+      <point x="-22.125" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseTargetResponse" target="network.response.Response">
+      <point x="-48.75" y="-14.5" />
+      <point x="6762.0" y="2428.0" />
+      <point x="4618.847787521774" y="2428.0" />
+      <point x="40.96551724137862" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseEffectResponse" target="model.weapon.Effect">
+      <point x="-48.0" y="-14.5" />
+      <point x="1495.25" y="2458.0" />
+      <point x="829.5" y="2458.0" />
+      <point x="829.5" y="1143.0" />
+      <point x="1035.0" y="1143.0" />
+      <point x="1035.0" y="994.0" />
+      <point x="8121.482954545455" y="994.0" />
+      <point x="-15.454545454545496" y="14.5" />
+    </edge>
+    <edge source="network.ClientSocket" target="network.Client">
+      <point x="-15.625" y="-14.5" />
+      <point x="320.875" y="2189.0" />
+      <point x="447.04103793357353" y="2189.0" />
+      <point x="-20.75" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerMarksPane" target="view.gui.DamageImagePane">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.board.Tile" target="model.player.Player">
+      <point x="0.0" y="14.5" />
+      <point x="15236.191126593127" y="397.0" />
+      <point x="15243.203275278693" y="397.0" />
+      <point x="15243.203275278693" y="686.0" />
+      <point x="15152.810967586385" y="686.0" />
+      <point x="13.076923076922867" y="-14.5" />
+    </edge>
+    <edge source="network.notify" target="model.board.TileView">
+      <point x="6.149999999999977" y="-14.5" />
+      <point x="11497.085701652944" y="2348.0" />
+      <point x="11463.577205882353" y="2348.0" />
+      <point x="11463.577205882353" y="1222.0" />
+      <point x="10897.661764705883" y="1222.0" />
+      <point x="30.625" y="14.5" />
+    </edge>
+    <edge source="network.ResponseDecoder" target="network.ViewListener">
+      <point x="0.0" y="-14.5" />
+      <point x="209.75" y="387.0" />
+      <point x="5293.50825534764" y="387.0" />
+      <point x="-31.5" y="14.5" />
+    </edge>
+    <edge source="view.gui.HSpawnPointTileBox" target="view.gui.GUIViewJavaFX">
+      <point x="-44.0" y="14.5" />
+      <point x="12026.54629049711" y="2269.0" />
+      <point x="11983.29531703756" y="2269.0" />
+      <point x="11983.29531703756" y="2767.0" />
+      <point x="12428.767444343264" y="2767.0" />
+      <point x="-24.923076923076223" y="-14.5" />
+    </edge>
+    <edge source="model.utility.EndObserver" target="model.board.GameManager">
+      <point x="32.0" y="14.5" />
+      <point x="15073.167844510088" y="1851.0" />
+      <point x="15294.357121432538" y="1851.0" />
+      <point x="15294.357121432538" y="2159.0" />
+      <point x="15481.076464489783" y="2159.0" />
+      <point x="-14.571428571428442" y="-14.5" />
+    </edge>
+    <edge source="model.exceptions.WrongChoiceException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="283.5" y="3238.0" />
+      <point x="1241.6785714285713" y="3238.0" />
+      <point x="-56.57142857142867" y="14.5" />
+    </edge>
+    <edge source="network.response.GamesStatusResponse" target="model.utility.MapInfoView">
+      <point x="47.5" y="-14.5" />
+      <point x="6181.75" y="2598.0" />
+      <point x="8227.382270280395" y="2598.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.GameBoardPane" target="view.gui.HSpawnPointTileBox">
+      <point x="-18.75" y="-14.5" />
+      <point x="12512.584624761623" y="2239.0" />
+      <point x="12114.54629049711" y="2239.0" />
+      <point x="44.0" y="14.5" />
+    </edge>
+    <edge source="model.powerup.PowerUp" target="model.player.Player">
+      <point x="20.800000000000182" y="14.5" />
+      <point x="15179.503275278694" y="676.0" />
+      <point x="15146.272506047922" y="676.0" />
+      <point x="6.538461538460979" y="-14.5" />
+    </edge>
+    <edge source="network.RetryConnectionTask" target="network.Client">
+      <point x="0.0" y="-14.5" />
+      <point x="729.0" y="2189.0" />
+      <point x="488.54103793357353" y="2189.0" />
+      <point x="20.75" y="14.5" />
+    </edge>
+    <edge source="view.gui.GameBoardPane" target="view.gui.MapGridPane">
+      <point x="56.25" y="-14.5" />
+      <point x="12587.584624761623" y="2259.0" />
+      <point x="13534.082670883088" y="2259.0" />
+      <point x="-32.5" y="14.5" />
+    </edge>
+    <edge source="view.gui.BtnWeapon" target="model.weapon.Weapon">
+      <point x="0.0" y="-14.5" />
+      <point x="12060.94039399239" y="1841.0" />
+      <point x="11968.865393992392" y="1841.0" />
+      <point x="11968.865393992392" y="1133.0" />
+      <point x="11287.603926243717" y="1133.0" />
+      <point x="20.625" y="14.5" />
+    </edge>
+    <edge source="model.utility.MapInfo" target="model.player.PlayerView">
+      <point x="-32.66666666666697" y="-14.5" />
+      <point x="14369.810234985653" y="1481.0" />
+      <point x="11113.371323529413" y="1481.0" />
+      <point x="53.64705882352973" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.gamemodes.GameMode">
+      <point x="-43.714285714285325" y="-14.5" />
+      <point x="15451.933607346928" y="2189.0" />
+      <point x="14495.584044509462" y="2189.0" />
+      <point x="14495.584044509462" y="2040.0" />
+      <point x="14299.726901652319" y="2040.0" />
+      <point x="43.875" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerSymbolsPane" target="view.gui.GUIViewJavaFX">
+      <point x="-41.75" y="14.5" />
+      <point x="12413.94052126634" y="2269.0" />
+      <point x="12312.68954780679" y="2269.0" />
+      <point x="12312.68954780679" y="2737.0" />
+      <point x="12445.382828958649" y="2737.0" />
+      <point x="-8.307692307691468" y="-14.5" />
+    </edge>
+    <edge source="network.response.MapInfoResponse" target="model.board.KillShotTrack">
+      <point x="52.66666666666606" y="-14.5" />
+      <point x="5695.916666666666" y="2608.0" />
+      <point x="10060.75" y="2608.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="model.player.Player">
+      <point x="-49.17857142857156" y="-14.5" />
+      <point x="15884.296702585023" y="2837.0" />
+      <point x="14461.976901652319" y="2837.0" />
+      <point x="14461.976901652319" y="885.0" />
+      <point x="15130.289600065018" y="885.0" />
+      <point x="-9.444444444444343" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseEffectResponse" target="network.response.Response">
+      <point x="48.0" y="-14.5" />
+      <point x="1591.25" y="2528.0" />
+      <point x="4529.468477176948" y="2528.0" />
+      <point x="-48.41379310344746" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.GameMode" target="model.utility.EndObserver">
+      <point x="0.0" y="-14.5" />
+      <point x="14255.851901652319" y="1851.0" />
+      <point x="15009.167844510088" y="1851.0" />
+      <point x="-32.0" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.MyTimer">
+      <point x="38.25" y="-14.5" />
+      <point x="15971.725274013594" y="2827.0" />
+      <point x="16141.191767618766" y="2827.0" />
+      <point x="-25.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerAmmoPane" target="view.gui.BtnAmmo">
+      <point x="0.0" y="-14.5" />
+      <point x="12721.990521266342" y="1851.0" />
+      <point x="12588.84544431151" y="1851.0" />
+      <point x="27.25" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIListener" target="view.ViewClient">
+      <point x="-24.0" y="-14.5" />
+      <point x="7256.375985067245" y="2936.0" />
+      <point x="5553.75" y="2936.0" />
+      <point x="5553.75" y="2229.0" />
+      <point x="2750.6322702803955" y="2229.0" />
+      <point x="32.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.MapInfoView" target="model.board.TileView">
+      <point x="0.0" y="-14.5" />
+      <point x="8227.382270280395" y="2020.0" />
+      <point x="8282.75" y="2020.0" />
+      <point x="8282.75" y="1312.0" />
+      <point x="10824.161764705883" y="1312.0" />
+      <point x="-42.875" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateWeaponsPowPointsResponse" target="model.powerup.PowerUp">
+      <point x="0.0" y="-14.5" />
+      <point x="5880.25" y="2578.0" />
+      <point x="7823.75" y="2578.0" />
+      <point x="7823.75" y="1073.0" />
+      <point x="7959.875" y="1073.0" />
+      <point x="7959.875" y="576.0" />
+      <point x="15110.16994194536" y="576.0" />
+      <point x="-48.53333333333285" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.weapon.Weapon">
+      <point x="-22.199999999999818" y="-14.5" />
+      <point x="14882.860357362357" y="1441.0" />
+      <point x="14798.953275278693" y="1441.0" />
+      <point x="14798.953275278693" y="1103.0" />
+      <point x="11312.353926243717" y="1103.0" />
+      <point x="45.375" y="14.5" />
+    </edge>
+    <edge source="network.requests.MapInfoRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="9277.25" y="1691.0" />
+      <point x="9171.838656981192" y="1691.0" />
+      <point x="-2.2272727272729753" y="14.5" />
+    </edge>
+    <edge source="network.requests.AckPing" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="10001.25" y="1651.0" />
+      <point x="9189.656838799376" y="1651.0" />
+      <point x="15.590909090909008" y="14.5" />
+    </edge>
+    <edge source="view.gui.BtnTile" target="view.gui.GUIViewJavaFX">
+      <point x="0.0" y="-14.5" />
+      <point x="41.14285714285688" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.NormalGameMode" target="model.gamemodes.GameMode">
+      <point x="53.666666666666515" y="-14.5" />
+      <point x="12693.357187933008" y="2030.0" />
+      <point x="14211.976901652319" y="2030.0" />
+      <point x="-43.875" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTileRequest" target="model.board.TileView">
+      <point x="41.5" y="-14.5" />
+      <point x="11609.577205882353" y="1212.0" />
+      <point x="10909.911764705883" y="1212.0" />
+      <point x="42.875" y="14.5" />
+    </edge>
+    <edge source="network.ClientContext" target="model.board.KillShotTrack">
+      <point x="57.75" y="-14.5" />
+      <point x="8995.625985067245" y="2269.0" />
+      <point x="10017.75" y="2269.0" />
+      <point x="-43.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerDeathsPane" target="view.gui.GUIViewJavaFX">
+      <point x="0.0" y="-14.5" />
+      <point x="12350.5833784092" y="3006.0" />
+      <point x="12474.26194983777" y="3006.0" />
+      <point x="20.57142857142935" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.enums.TypeOfEffect">
+      <point x="-85.04999999999927" y="-14.5" />
+      <point x="8313.7" y="1601.0" />
+      <point x="7471.5" y="1601.0" />
+      <point x="16.25" y="14.5" />
+    </edge>
+    <edge source="view.gui.HSpawnPointTileBox" target="model.player.PlayerView">
+      <point x="44.0" y="-14.5" />
+      <point x="12114.54629049711" y="1950.0" />
+      <point x="12167.69039399239" y="1950.0" />
+      <point x="12167.69039399239" y="1541.0" />
+      <point x="11093.25367647059" y="1541.0" />
+      <point x="33.52941176470631" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateCurrentPlayerResponse" target="network.response.Response">
+      <point x="-59.25" y="-14.5" />
+      <point x="6987.5" y="2418.0" />
+      <point x="4622.5719254528085" y="2418.0" />
+      <point x="44.68965517241304" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.board.Tile">
+      <point x="47.69230769230762" y="-14.5" />
+      <point x="14615.77635220177" y="2030.0" />
+      <point x="15273.818659894077" y="2030.0" />
+      <point x="15273.818659894077" y="377.0" />
+      <point x="15251.524459926459" y="377.0" />
+      <point x="15.33333333333303" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseTileResponse" target="network.response.Response">
+      <point x="-44.0" y="-14.5" />
+      <point x="7229.25" y="2408.0" />
+      <point x="4626.296063383843" y="2408.0" />
+      <point x="48.41379310344746" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.NetworkCountdown">
+      <point x="-5.4642857142853245" y="-14.5" />
+      <point x="15928.01098829931" y="2797.0" />
+      <point x="15841.691767618766" y="2797.0" />
+      <point x="-43.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn.EffectActions" target="model.weapon.Effect">
+      <point x="-33.0" y="-14.5" />
+      <point x="14695.084044509462" y="964.0" />
+      <point x="8167.846590909092" y="964.0" />
+      <point x="30.90909090909099" y="14.5" />
+    </edge>
+    <edge source="network.notify" target="model.powerup.PowerUp">
+      <point x="55.35000000000002" y="-14.5" />
+      <point x="11546.285701652945" y="2658.0" />
+      <point x="11683.577205882353" y="2658.0" />
+      <point x="11683.577205882353" y="616.0" />
+      <point x="15137.903275278692" y="616.0" />
+      <point x="-20.800000000000182" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIViewJavaFX" target="view.gui.PlayingScene">
+      <point x="19.384615384615245" y="-14.5" />
+      <point x="12473.075136650956" y="2767.0" />
+      <point x="13279.88294431151" y="2767.0" />
+      <point x="-32.25" y="14.5" />
+    </edge>
+    <edge source="view.gui.VSpawnPointTileBox" target="view.gui.BtnWeapon">
+      <point x="0.0" y="-14.5" />
+      <point x="11819.815667420815" y="1920.0" />
+      <point x="12012.540393992393" y="1920.0" />
+      <point x="-48.399999999999636" y="14.5" />
+    </edge>
+    <edge source="network.ClientContext" target="model.weapon.Weapon">
+      <point x="8.25" y="-14.5" />
+      <point x="8946.125985067245" y="2239.0" />
+      <point x="9361.75" y="2239.0" />
+      <point x="9361.75" y="1113.0" />
+      <point x="11246.353926243717" y="1113.0" />
+      <point x="-20.625" y="14.5" />
+    </edge>
+    <edge source="network.requests.WakeRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="9117.25" y="1701.0" />
+      <point x="9167.384111526648" y="1701.0" />
+      <point x="-6.6818181818180165" y="14.5" />
+    </edge>
+    <edge source="network.ClientController" target="view.ViewClient">
+      <point x="36.0" y="-14.5" />
+      <point x="2548.088656981192" y="2239.0" />
+      <point x="2718.6322702803955" y="2239.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.weapon.InitWeapons" target="model.weapon.actions.Action">
+      <point x="-31.25" y="-14.5" />
+      <point x="609.5625" y="885.0" />
+      <point x="647.6243712669075" y="885.0" />
+      <point x="-24.0" y="14.5" />
+    </edge>
+    <edge source="network.ServerController" target="network.NetworkManager">
+      <point x="55.5" y="-14.5" />
+      <point x="14335.11391870224" y="3006.0" />
+      <point x="15895.225274013594" y="3006.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="network.response.GamesStatusResponse" target="network.response.Response">
+      <point x="-47.5" y="-14.5" />
+      <point x="6086.75" y="2458.0" />
+      <point x="4607.675373728671" y="2458.0" />
+      <point x="29.79310344827536" y="14.5" />
+    </edge>
+    <edge source="network.ViewProxy" target="network.NetworkManager">
+      <point x="28.0" y="14.5" />
+      <point x="15672.833311908727" y="726.0" />
+      <point x="16226.691767618766" y="726.0" />
+      <point x="16226.691767618766" y="2847.0" />
+      <point x="15993.582416870737" y="2847.0" />
+      <point x="60.10714285714312" y="-14.5" />
+    </edge>
+    <edge source="network.ConnectionAckServerTimer" target="network.ViewProxy">
+      <point x="53.75" y="-14.5" />
+      <point x="16125.156876212022" y="3006.0" />
+      <point x="16264.407771250013" y="3006.0" />
+      <point x="16264.407771250013" y="716.0" />
+      <point x="15691.499978575393" y="716.0" />
+      <point x="46.66666666666697" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseRoomRequest" target="model.enums.RoomColor">
+      <point x="-45.0" y="-14.5" />
+      <point x="896.0" y="228.0" />
+      <point x="10713.208755020409" y="228.0" />
+      <point x="-29.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.powerup.PowerUp">
+      <point x="-9.450000000000728" y="-14.5" />
+      <point x="8389.3" y="1561.0" />
+      <point x="8237.9375" y="1561.0" />
+      <point x="8237.9375" y="586.0" />
+      <point x="15117.103275278692" y="586.0" />
+      <point x="-41.600000000000364" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.ZoomPane">
+      <point x="-6.450000000000728" y="-14.5" />
+      <point x="13305.68294431151" y="2608.0" />
+      <point x="13103.93954780679" y="2608.0" />
+      <point x="28.5" y="14.5" />
+    </edge>
+    <edge source="model.weapon.actions.Action" target="model.weapon.actions.Visitable">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.player.PlayerView" target="model.enums.PlayerColor">
+      <point x="-25.33333333333394" y="-14.5" />
+      <point x="11034.390931372549" y="1292.0" />
+      <point x="10972.541426243717" y="1292.0" />
+      <point x="10972.541426243717" y="566.0" />
+      <point x="10970.666426243717" y="566.0" />
+      <point x="7.375" y="14.5" />
+    </edge>
+    <edge source="model.board.TileView" target="model.player.PlayerView">
+      <point x="6.125" y="14.5" />
+      <point x="10873.161764705883" y="1302.0" />
+      <point x="11021.724264705883" y="1302.0" />
+      <point x="-38.0" y="-14.5" />
+    </edge>
+    <edge source="network.response.ChooseTargetResponse" target="model.player.PlayerView">
+      <point x="48.75" y="-14.5" />
+      <point x="6859.5" y="2638.0" />
+      <point x="10703.455882352942" y="2638.0" />
+      <point x="10703.455882352942" y="1781.0" />
+      <point x="11053.018382352942" y="1781.0" />
+      <point x="-6.7058823529405345" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseAmmoRequest" target="network.requests.Request">
+      <point x="46.0" y="-14.5" />
+      <point x="7767.25" y="1641.0" />
+      <point x="9140.656838799376" y="1641.0" />
+      <point x="-33.40909090909099" y="14.5" />
+    </edge>
+    <edge source="network.ResponseDecoder" target="network.Client">
+      <point x="53.0" y="-14.5" />
+      <point x="262.75" y="2179.0" />
+      <point x="433.2077046002396" y="2179.0" />
+      <point x="-34.58333333333394" y="14.5" />
+    </edge>
+    <edge source="network.response.QuitResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="5476.25" y="2608.0" />
+      <point x="4596.502959935568" y="2608.0" />
+      <point x="18.6206896551721" y="14.5" />
+    </edge>
+    <edge source="network.response.MapInfoResponse" target="network.response.Response">
+      <point x="-52.66666666666606" y="-14.5" />
+      <point x="5590.583333333334" y="2598.0" />
+      <point x="4600.227097866602" y="2598.0" />
+      <point x="22.34482758620652" y="14.5" />
+    </edge>
+    <edge source="network.ClientRmi" target="view.ViewClient">
+      <point x="0.0" y="-14.5" />
+      <point x="947.6616993529606" y="2946.0" />
+      <point x="1090.75" y="2946.0" />
+      <point x="1090.75" y="2219.0" />
+      <point x="2686.6322702803955" y="2219.0" />
+      <point x="-32.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.powerup.PowerUp">
+      <point x="66.59999999999945" y="-14.5" />
+      <point x="14971.660357362356" y="1841.0" />
+      <point x="14966.667844510088" y="1841.0" />
+      <point x="14966.667844510088" y="1143.0" />
+      <point x="15192.734044509461" y="1143.0" />
+      <point x="15192.734044509461" y="676.0" />
+      <point x="15186.436608612026" y="676.0" />
+      <point x="27.733333333333576" y="14.5" />
+    </edge>
+    <edge source="network.notify" target="model.board.AmmoTile">
+      <point x="30.75" y="-14.5" />
+      <point x="11521.685701652945" y="2638.0" />
+      <point x="11661.577205882353" y="2638.0" />
+      <point x="11661.577205882353" y="238.0" />
+      <point x="13543.242729157228" y="238.0" />
+      <point x="-13.5" y="14.5" />
+    </edge>
+    <edge source="view.gui.BtnEnemySymbol" target="view.gui.GUIViewJavaFX">
+      <point x="-39.0" y="14.5" />
+      <point x="12327.084624761623" y="1960.0" />
+      <point x="11947.776086268328" y="1960.0" />
+      <point x="11947.776086268328" y="2777.0" />
+      <point x="12423.228982804801" y="2777.0" />
+      <point x="-30.46153846153902" y="-14.5" />
+    </edge>
+    <edge source="view.gui.VoidSpaceButton" target="view.gui.GUIViewJavaFX">
+      <point x="39.0" y="-14.5" />
+      <point x="11004.703190949598" y="2996.0" />
+      <point x="12453.69052126634" y="2996.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.player.PlayerView" target="model.enums.PlayerState">
+      <point x="38.0" y="-14.5" />
+      <point x="11097.724264705883" y="1242.0" />
+      <point x="11073.416426243717" y="1242.0" />
+      <point x="11073.416426243717" y="566.0" />
+      <point x="13706.155893960637" y="566.0" />
+      <point x="-29.25" y="14.5" />
+    </edge>
+    <edge source="network.response.InactivityResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3313.75" y="2598.0" />
+      <point x="4555.537442694189" y="2598.0" />
+      <point x="-22.34482758620652" y="14.5" />
+    </edge>
+    <edge source="network.ConnectionServerTimer" target="network.ViewProxy">
+      <point x="0.0" y="-14.5" />
+      <point x="15528.999978575395" y="736.0" />
+      <point x="15616.833311908727" y="736.0" />
+      <point x="-28.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ActiveTurnResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3502.75" y="2608.0" />
+      <point x="4559.261580625223" y="2608.0" />
+      <point x="-18.6206896551721" y="14.5" />
+    </edge>
+    <edge source="model.player.PlayerView" target="model.board.TurnAction">
+      <point x="12.66666666666606" y="-14.5" />
+      <point x="11072.390931372549" y="1262.0" />
+      <point x="11051.416426243717" y="1262.0" />
+      <point x="11051.416426243717" y="536.0" />
+      <point x="12826.53294431151" y="536.0" />
+      <point x="-43.875" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.board.Tile">
+      <point x="19.615384615384755" y="-14.5" />
+      <point x="15159.349429124846" y="696.0" />
+      <point x="15249.741736817154" y="696.0" />
+      <point x="15249.741736817154" y="387.0" />
+      <point x="15243.857793259793" y="387.0" />
+      <point x="7.66666666666697" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseWeaponRequest" target="model.weapon.Weapon">
+      <point x="49.0" y="-14.5" />
+      <point x="11175.577205882353" y="1143.0" />
+      <point x="11271.103926243717" y="1143.0" />
+      <point x="4.125" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.board.Deck">
+      <point x="-4.857142857143117" y="-14.5" />
+      <point x="15490.790750204069" y="2149.0" />
+      <point x="15343.857121432538" y="2149.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.WrongDirectionException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="1401.0" y="3288.0" />
+      <point x="1303.392857142857" y="3288.0" />
+      <point x="5.14285714285711" y="14.5" />
+    </edge>
+    <edge source="network.requests.PlayerCreateRequest" target="network.requests.Request">
+      <point x="43.75" y="-14.5" />
+      <point x="7976.5" y="1651.0" />
+      <point x="9145.11138425392" y="1651.0" />
+      <point x="-28.95454545454504" y="14.5" />
+    </edge>
+    <edge source="view.gui.HSpawnPointTileBox" target="view.gui.BtnWeapon">
+      <point x="-44.0" y="-14.5" />
+      <point x="12026.54629049711" y="1950.0" />
+      <point x="12085.140393992391" y="1950.0" />
+      <point x="24.200000000000728" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.FinalFrenzyGameMode" target="model.player.Player">
+      <point x="23.25" y="-14.5" />
+      <point x="12856.44052126634" y="2020.0" />
+      <point x="13152.803021266342" y="2020.0" />
+      <point x="13152.803021266342" y="875.0" />
+      <point x="15120.845155620573" y="875.0" />
+      <point x="-18.888888888888687" y="14.5" />
+    </edge>
+    <edge source="network.ClientContext" target="model.powerup.PowerUp">
+      <point x="-8.25" y="-14.5" />
+      <point x="8929.625985067245" y="2239.0" />
+      <point x="8696.75" y="2239.0" />
+      <point x="8696.75" y="596.0" />
+      <point x="15124.036608612027" y="596.0" />
+      <point x="-34.66666666666606" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerBoardPane" target="view.gui.PlayerMarksPane">
+      <point x="57.0" y="-14.5" />
+      <point x="13234.834624761623" y="2020.0" />
+      <point x="13741.082670883088" y="2020.0" />
+      <point x="-38.0" y="14.5" />
+    </edge>
+    <edge source="view.cli.CLIView" target="view.cli.CommandParsing">
+      <point x="12.0" y="-14.5" />
+      <point x="2869.1695983664486" y="2837.0" />
+      <point x="2833.25" y="2837.0" />
+      <point x="-39.0" y="14.5" />
+    </edge>
+    <edge source="model.player.PlayerView" target="model.weapon.Weapon">
+      <point x="50.66666666666606" y="-14.5" />
+      <point x="11110.390931372549" y="1322.0" />
+      <point x="11140.120098039217" y="1322.0" />
+      <point x="11140.120098039217" y="1133.0" />
+      <point x="11262.853926243717" y="1133.0" />
+      <point x="-4.125" y="14.5" />
+    </edge>
+    <edge source="network.ClientSocket" target="network.ClientController">
+      <point x="46.875" y="-14.5" />
+      <point x="383.375" y="2488.0" />
+      <point x="2450.3743712669057" y="2488.0" />
+      <point x="-61.714285714286234" y="14.5" />
+    </edge>
+    <edge source="model.weapon.Weapon" target="model.enums.LoadedState">
+      <point x="-8.25" y="-14.5" />
+      <point x="11258.728926243717" y="984.0" />
+      <point x="11230.478926243717" y="984.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateCurrentPlayerResponse" target="model.player.PlayerView">
+      <point x="59.25" y="-14.5" />
+      <point x="7106.0" y="2648.0" />
+      <point x="10710.161764705883" y="2648.0" />
+      <point x="10710.161764705883" y="1791.0" />
+      <point x="11059.724264705883" y="1791.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.weapon.actions.MarkAction" target="model.weapon.Effect">
+      <point x="39.333333333333314" y="-14.5" />
+      <point x="1004.8333333333339" y="984.0" />
+      <point x="8113.755681818182" y="984.0" />
+      <point x="-23.181818181818244" y="14.5" />
+    </edge>
+    <edge source="network.requests.CreateGameRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="8599.75" y="1671.0" />
+      <point x="9154.020475163012" y="1671.0" />
+      <point x="-20.04545454545496" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.player.Player">
+      <point x="14.571428571428442" y="-14.5" />
+      <point x="15510.219321632641" y="2129.0" />
+      <point x="15403.071407146823" y="2129.0" />
+      <point x="15403.071407146823" y="855.0" />
+      <point x="15177.511822287239" y="855.0" />
+      <point x="37.777777777777374" y="14.5" />
+    </edge>
+    <edge source="network.PlayerCountdown" target="network.NetworkManager">
+      <point x="39.25" y="14.5" />
+      <point x="15550.953182406747" y="2807.0" />
+      <point x="15917.082416870737" y="2807.0" />
+      <point x="-16.392857142856883" y="-14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.powerup.PowerUp">
+      <point x="-6.5384615384614335" y="-14.5" />
+      <point x="15133.195582971" y="656.0" />
+      <point x="15165.636608612025" y="656.0" />
+      <point x="6.933333333333394" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerSymbolsPane" target="view.gui.BtnEnemySymbol">
+      <point x="0.0" y="-14.5" />
+      <point x="12455.69052126634" y="1960.0" />
+      <point x="12405.084624761623" y="1960.0" />
+      <point x="39.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerBoardPane" target="view.gui.GUIViewJavaFX">
+      <point x="-50.66666666666606" y="14.5" />
+      <point x="13127.167958094957" y="2229.0" />
+      <point x="12635.31454780679" y="2229.0" />
+      <point x="12635.31454780679" y="2737.0" />
+      <point x="12456.459752035571" y="2737.0" />
+      <point x="2.7692307692304894" y="-14.5" />
+    </edge>
+    <edge source="network.requests.ChooseAmmoRequest" target="model.enums.AmmoColor">
+      <point x="-46.0" y="-14.5" />
+      <point x="7675.25" y="417.0" />
+      <point x="8202.9375" y="417.0" />
+      <point x="-24.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.EnemyPowerUpPane">
+      <point x="6.450000000000728" y="-14.5" />
+      <point x="13318.58294431151" y="2598.0" />
+      <point x="13304.082670883088" y="2598.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.weapon.Weapon">
+      <point x="-47.69230769230762" y="-14.5" />
+      <point x="14520.391736817155" y="1930.0" />
+      <point x="14576.362890663308" y="1930.0" />
+      <point x="14576.362890663308" y="1123.0" />
+      <point x="11295.853926243717" y="1123.0" />
+      <point x="28.875" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseTypeOfEffectResponse" target="network.response.Response">
+      <point x="59.25" y="-14.5" />
+      <point x="1838.0" y="2538.0" />
+      <point x="4533.192615107982" y="2538.0" />
+      <point x="-44.68965517241304" y="14.5" />
+    </edge>
+    <edge source="model.weapon.actions.DamageAction" target="model.weapon.Effect">
+      <point x="45.66666666666663" y="-14.5" />
+      <point x="778.2291666666661" y="974.0" />
+      <point x="8106.02840909091" y="974.0" />
+      <point x="-30.90909090909099" y="14.5" />
+    </edge>
+    <edge source="controller.TurnStateController" target="controller.WeaponController">
+      <point x="-34.0" y="-14.5" />
+      <point x="15858.084624761621" y="138.0" />
+      <point x="15663.397170549168" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIListener" target="network.ClientController">
+      <point x="-48.0" y="-14.5" />
+      <point x="7232.375985067245" y="2946.0" />
+      <point x="4211.75" y="2946.0" />
+      <point x="4211.75" y="2478.0" />
+      <point x="2553.2315141240488" y="2478.0" />
+      <point x="41.14285714285688" y="14.5" />
+    </edge>
+    <edge source="view.gui.PowerUpPane" target="view.gui.GUIViewJavaFX">
+      <point x="33.5" y="14.5" />
+      <point x="14102.332670883088" y="2837.0" />
+      <point x="12511.844367420186" y="2837.0" />
+      <point x="58.153846153845734" y="-14.5" />
+    </edge>
+    <edge source="model.exceptions.AmmoException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="1019.0" y="3278.0" />
+      <point x="1282.8214285714287" y="3278.0" />
+      <point x="-15.428571428571331" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.utility.PossibleChoices">
+      <point x="-9.538461538461434" y="-14.5" />
+      <point x="14558.545582971" y="1970.0" />
+      <point x="14905.060357362356" y="1970.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseTileResponse" target="model.board.TileView">
+      <point x="44.0" y="-14.5" />
+      <point x="7317.25" y="2658.0" />
+      <point x="10931.161764705883" y="2658.0" />
+      <point x="10931.161764705883" y="1322.0" />
+      <point x="10848.661764705883" y="1322.0" />
+      <point x="-18.375" y="14.5" />
+    </edge>
+    <edge source="model.powerup.PowerUp" target="model.powerup.PowerUpEffect">
+      <point x="13.0" y="-14.5" />
+      <point x="15171.703275278693" y="357.0" />
+      <point x="15182.938918702239" y="357.0" />
+      <point x="15182.938918702239" y="228.0" />
+      <point x="15161.38899835624" y="228.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.board.Tile" target="model.enums.RoomColor">
+      <point x="-23.0" y="-14.5" />
+      <point x="15213.191126593127" y="198.0" />
+      <point x="10790.54208835374" y="198.0" />
+      <point x="48.33333333333303" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.enums.TypeOfEffect">
+      <point x="-66.59999999999991" y="-14.5" />
+      <point x="14838.460357362357" y="1471.0" />
+      <point x="7504.0" y="1471.0" />
+      <point x="48.75" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.GUILogger">
+      <point x="45.149999999999636" y="-14.5" />
+      <point x="13357.282944311508" y="2648.0" />
+      <point x="13867.332670883088" y="2648.0" />
+      <point x="-28.5" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.PowerUpException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="842.5" y="3268.0" />
+      <point x="1272.5357142857142" y="3268.0" />
+      <point x="-25.71428571428578" y="14.5" />
+    </edge>
+    <edge source="model.weapon.actions.MovementAction" target="model.weapon.Effect">
+      <point x="57.0" y="-14.5" />
+      <point x="614.6904316997825" y="964.0" />
+      <point x="8098.301136363637" y="964.0" />
+      <point x="-38.63636363636374" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.ShootingException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="1195.5" y="3288.0" />
+      <point x="1293.107142857143" y="3288.0" />
+      <point x="-5.14285714285711" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.WeaponPane">
+      <point x="-58.04999999999927" y="-14.5" />
+      <point x="13254.08294431151" y="2648.0" />
+      <point x="12090.54531703756" y="2648.0" />
+      <point x="32.25" y="14.5" />
+    </edge>
+    <edge source="network.ClientContext" target="model.utility.MapInfoView">
+      <point x="-41.25" y="-14.5" />
+      <point x="8896.625985067245" y="2259.0" />
+      <point x="8278.182270280395" y="2259.0" />
+      <point x="50.79999999999927" y="14.5" />
+    </edge>
+    <edge source="model.board.Tile" target="model.board.AmmoTile">
+      <point x="23.0" y="-14.5" />
+      <point x="15259.191126593127" y="178.0" />
+      <point x="13570.242729157228" y="178.0" />
+      <point x="13.5" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.enums.Direction">
+      <point x="-57.230769230769056" y="-14.5" />
+      <point x="14510.853275278692" y="2030.0" />
+      <point x="14328.414401652319" y="2030.0" />
+      <point x="14328.414401652319" y="1491.0" />
+      <point x="11411.177205882354" y="1491.0" />
+      <point x="20.600000000000364" y="14.5" />
+    </edge>
+    <edge source="network.ViewProxy" target="network.ViewListener">
+      <point x="-28.0" y="-14.5" />
+      <point x="15616.833311908727" y="317.0" />
+      <point x="5377.50825534764" y="317.0" />
+      <point x="52.5" y="14.5" />
+    </edge>
+    <edge source="network.ClientContext" target="model.utility.PossibleChoices_Client">
+      <point x="-24.75" y="-14.5" />
+      <point x="8913.125985067245" y="2249.0" />
+      <point x="8398.75" y="2249.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="controller.TurnStateController" target="controller.PowerUpController">
+      <point x="68.0" y="-14.5" />
+      <point x="15960.084624761621" y="238.0" />
+      <point x="16303.084624761621" y="238.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.enums.AmmoColor">
+      <point x="7.400000000000546" y="-14.5" />
+      <point x="14912.460357362357" y="1421.0" />
+      <point x="14820.953275278693" y="1421.0" />
+      <point x="14820.953275278693" y="1103.0" />
+      <point x="15022.938918702239" y="1103.0" />
+      <point x="15022.938918702239" y="347.0" />
+      <point x="8250.9375" y="347.0" />
+      <point x="24.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIListener" target="view.gui.GUIViewJavaFX">
+      <point x="24.0" y="-14.5" />
+      <point x="7304.375985067245" y="2976.0" />
+      <point x="12412.547664123484" y="2976.0" />
+      <point x="-41.14285714285688" y="14.5" />
+    </edge>
+    <edge source="view.cli.CommandParsing" target="network.ClientController">
+      <point x="0.0" y="-14.5" />
+      <point x="2872.25" y="2488.0" />
+      <point x="2532.6600855526212" y="2488.0" />
+      <point x="20.57142857142935" y="14.5" />
+    </edge>
+    <edge source="network.requests.PrintHelpRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="9853.75" y="1661.0" />
+      <point x="9185.20229334483" y="1661.0" />
+      <point x="11.136363636363967" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerBoardPane" target="view.gui.PlayerDamagePane">
+      <point x="19.0" y="-14.5" />
+      <point x="13196.834624761623" y="2010.0" />
+      <point x="13560.082670883088" y="2010.0" />
+      <point x="-41.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ValidGameResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4701.75" y="2648.0" />
+      <point x="4581.60640821143" y="2648.0" />
+      <point x="3.72413793103442" y="14.5" />
+    </edge>
+    <edge source="model.player.PlayerView" target="model.board.TileView">
+      <point x="-50.66666666666606" y="-14.5" />
+      <point x="11009.057598039217" y="1312.0" />
+      <point x="10860.911764705883" y="1312.0" />
+      <point x="-6.125" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.weapon.Effect">
+      <point x="-38.15384615384619" y="-14.5" />
+      <point x="14529.930198355616" y="1940.0" />
+      <point x="14651.584044509462" y="1940.0" />
+      <point x="14651.584044509462" y="974.0" />
+      <point x="8160.119318181819" y="974.0" />
+      <point x="23.18181818181847" y="14.5" />
+    </edge>
+    <edge source="view.cli.CLIListener" target="network.ClientController">
+      <point x="38.66666666666697" y="-14.5" />
+      <point x="1197.9166666666679" y="2498.0" />
+      <point x="2470.945799838335" y="2498.0" />
+      <point x="-41.14285714285688" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.MovementException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="2412.5" y="3238.0" />
+      <point x="1354.8214285714287" y="3238.0" />
+      <point x="56.57142857142867" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.GrabException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="469.5" y="3248.0" />
+      <point x="1251.9642857142858" y="3248.0" />
+      <point x="-46.28571428571422" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.enums.Direction">
+      <point x="-37.0" y="-14.5" />
+      <point x="14868.060357362356" y="1451.0" />
+      <point x="11431.777205882354" y="1451.0" />
+      <point x="41.19999999999982" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.enums.PlayerColor">
+      <point x="-39.230769230769056" y="-14.5" />
+      <point x="15100.503275278692" y="516.0" />
+      <point x="11014.916426243717" y="516.0" />
+      <point x="51.625" y="14.5" />
+    </edge>
+    <edge source="network.ServerController" target="controller.TurnStateController">
+      <point x="18.5" y="-14.5" />
+      <point x="14298.11391870224" y="2926.0" />
+      <point x="14186.851901652319" y="2926.0" />
+      <point x="14186.851901652319" y="407.0" />
+      <point x="15828.334624761621" y="407.0" />
+      <point x="-63.75" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.player.Player">
+      <point x="51.80000000000018" y="-14.5" />
+      <point x="14956.860357362357" y="1391.0" />
+      <point x="14934.667844510088" y="1391.0" />
+      <point x="14934.667844510088" y="1133.0" />
+      <point x="15139.734044509461" y="1133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseWeaponRequest" target="network.requests.Request">
+      <point x="-49.0" y="-14.5" />
+      <point x="11077.577205882353" y="1601.0" />
+      <point x="9211.929566072102" y="1601.0" />
+      <point x="37.86363636363603" y="14.5" />
+    </edge>
+    <edge source="model.utility.MapInfoView" target="model.player.PlayerView">
+      <point x="42.33333333333394" y="-14.5" />
+      <point x="8269.71560361373" y="2030.0" />
+      <point x="8293.75" y="2030.0" />
+      <point x="8293.75" y="1711.0" />
+      <point x="11006.077205882353" y="1711.0" />
+      <point x="-53.64705882352973" y="14.5" />
+    </edge>
+    <edge source="model.powerup.PowerUp" target="model.enums.PowerUpUse">
+      <point x="-13.0" y="-14.5" />
+      <point x="15145.703275278693" y="327.0" />
+      <point x="15108.438918702239" y="327.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChoosePowerUpRequest" target="model.powerup.PowerUp">
+      <point x="50.25" y="-14.5" />
+      <point x="14025.832670883088" y="626.0" />
+      <point x="15144.836608612026" y="626.0" />
+      <point x="-13.866666666666788" y="14.5" />
+    </edge>
+    <edge source="model.board.Tile" target="model.weapon.Weapon">
+      <point x="-30.66666666666697" y="14.5" />
+      <point x="15205.524459926459" y="367.0" />
+      <point x="11351.998029739" y="367.0" />
+      <point x="11351.998029739" y="994.0" />
+      <point x="11291.728926243717" y="994.0" />
+      <point x="24.75" y="-14.5" />
+    </edge>
+    <edge source="model.board.TileView" target="model.enums.TileLinks">
+      <point x="-12.25" y="-14.5" />
+      <point x="10854.786764705883" y="1073.0" />
+      <point x="10861.536764705883" y="1073.0" />
+      <point x="10861.536764705883" y="218.0" />
+      <point x="13317.039959894704" y="218.0" />
+      <point x="-25.25" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.EffectException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="1830.0" y="3268.0" />
+      <point x="1323.9642857142858" y="3268.0" />
+      <point x="25.71428571428578" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.weapon.Effect">
+      <point x="-7.400000000000546" y="-14.5" />
+      <point x="14897.660357362356" y="1431.0" />
+      <point x="14809.953275278693" y="1431.0" />
+      <point x="14809.953275278693" y="1093.0" />
+      <point x="15011.938918702239" y="1093.0" />
+      <point x="15011.938918702239" y="954.0" />
+      <point x="8175.573863636364" y="954.0" />
+      <point x="38.63636363636351" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTileRequest" target="network.requests.Request">
+      <point x="-41.5" y="-14.5" />
+      <point x="11526.577205882353" y="1561.0" />
+      <point x="9216.384111526648" y="1561.0" />
+      <point x="42.31818181818198" y="14.5" />
+    </edge>
+    <edge source="model.weapon.Weapon" target="model.utility.Ammo">
+      <point x="8.25" y="-14.5" />
+      <point x="11275.228926243717" y="984.0" />
+      <point x="11303.478926243717" y="984.0" />
+      <point x="11303.478926243717" y="69.0" />
+      <point x="11486.148201652946" y="69.0" />
+      <point x="-7.25" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseRoomResponse" target="model.enums.RoomColor">
+      <point x="-47.5" y="-14.5" />
+      <point x="1284.75" y="2468.0" />
+      <point x="299.75" y="2468.0" />
+      <point x="299.75" y="218.0" />
+      <point x="10693.875421687077" y="218.0" />
+      <point x="-48.33333333333303" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.enums.TurnState">
+      <point x="26.153846153845734" y="-14.5" />
+      <point x="15165.887890663307" y="706.0" />
+      <point x="15256.280198355615" y="706.0" />
+      <point x="15256.280198355615" y="387.0" />
+      <point x="15503.756144908144" y="387.0" />
+      <point x="15503.756144908144" y="158.0" />
+      <point x="15351.579016671258" y="158.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.powerup.PowerUp" target="model.board.Tile">
+      <point x="39.0" y="-14.5" />
+      <point x="15197.703275278693" y="397.0" />
+      <point x="15228.524459926459" y="397.0" />
+      <point x="-7.666666666666515" y="14.5" />
+    </edge>
+    <edge source="network.ClientRmi" target="network.RemoteController">
+      <point x="35.0" y="-14.5" />
+      <point x="982.6616993529606" y="2956.0" />
+      <point x="9091.964137700583" y="2956.0" />
+      <point x="-38.75" y="14.5" />
+    </edge>
+    <edge source="view.cli.CLIView" target="network.ClientController">
+      <point x="-12.0" y="-14.5" />
+      <point x="2845.1695983664486" y="2847.0" />
+      <point x="2783.75" y="2847.0" />
+      <point x="2783.75" y="2498.0" />
+      <point x="2512.088656981192" y="2498.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.weapon.Weapon" target="model.weapon.Effect">
+      <point x="-41.25" y="-14.5" />
+      <point x="11225.728926243717" y="1004.0" />
+      <point x="8144.664772727273" y="1004.0" />
+      <point x="7.727272727272748" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.GUIViewJavaFX">
+      <point x="32.25" y="14.5" />
+      <point x="13344.38294431151" y="2777.0" />
+      <point x="12478.613598189417" y="2777.0" />
+      <point x="24.923076923076223" y="-14.5" />
+    </edge>
+    <edge source="network.requests.ChooseRoomRequest" target="network.requests.Request">
+      <point x="45.0" y="-14.5" />
+      <point x="986.0" y="1611.0" />
+      <point x="9127.29320243574" y="1611.0" />
+      <point x="-46.772727272727025" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseTypeOfEffectResponse" target="model.enums.TypeOfEffect">
+      <point x="-59.25" y="-14.5" />
+      <point x="1719.5" y="2448.0" />
+      <point x="912.9195983664486" y="2448.0" />
+      <point x="912.9195983664486" y="2030.0" />
+      <point x="1884.8822702803955" y="2030.0" />
+      <point x="1884.8822702803955" y="1601.0" />
+      <point x="7406.5" y="1601.0" />
+      <point x="-48.75" y="14.5" />
+    </edge>
+    <edge source="model.weapon.actions.MovementAction" target="model.weapon.actions.Action">
+      <point x="-19.0" y="-14.5" />
+      <point x="538.6904316997825" y="1004.0" />
+      <point x="556.8125" y="1004.0" />
+      <point x="556.8125" y="865.0" />
+      <point x="631.6243712669075" y="865.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.enums.TypeOfAction">
+      <point x="-51.80000000000018" y="-14.5" />
+      <point x="14853.260357362356" y="1461.0" />
+      <point x="11302.452205882353" y="1461.0" />
+      <point x="49.875" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIViewJavaFX" target="view.ViewClient">
+      <point x="-58.153846153845734" y="-14.5" />
+      <point x="12395.536675112495" y="2827.0" />
+      <point x="11697.402205882354" y="2827.0" />
+      <point x="11697.402205882354" y="2219.0" />
+      <point x="2766.6322702803955" y="2219.0" />
+      <point x="48.0" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.FinalFrenzyGameMode" target="model.board.TurnAction">
+      <point x="-69.75" y="-14.5" />
+      <point x="12763.44052126634" y="2000.0" />
+      <point x="12991.490521266342" y="2000.0" />
+      <point x="12991.490521266342" y="536.0" />
+      <point x="12885.03294431151" y="536.0" />
+      <point x="14.625" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="model.utility.MapInfo">
+      <point x="-60.10714285714312" y="-14.5" />
+      <point x="15873.36813115645" y="2847.0" />
+      <point x="14402.476901652319" y="2847.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.GameBoardPane" target="view.gui.VSpawnPointTileBox">
+      <point x="-56.25" y="-14.5" />
+      <point x="12475.084624761623" y="2249.0" />
+      <point x="11863.565667420815" y="2249.0" />
+      <point x="43.75" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.player.Player">
+      <point x="19.076923076922867" y="-14.5" />
+      <point x="14587.160967586386" y="2000.0" />
+      <point x="15228.76399835624" y="2000.0" />
+      <point x="15228.76399835624" y="875.0" />
+      <point x="15158.62293339835" y="875.0" />
+      <point x="18.888888888888687" y="14.5" />
+    </edge>
+    <edge source="view.gui.BtnPowerUp" target="view.gui.GUIViewJavaFX">
+      <point x="42.0" y="14.5" />
+      <point x="14128.582670883088" y="2269.0" />
+      <point x="14146.332670883088" y="2269.0" />
+      <point x="14146.332670883088" y="2847.0" />
+      <point x="12517.382828958649" y="2847.0" />
+      <point x="63.69230769230853" y="-14.5" />
+    </edge>
+    <edge source="model.player.PlayerView" target="model.board.PointsBoard">
+      <point x="25.33333333333394" y="-14.5" />
+      <point x="11085.057598039217" y="1252.0" />
+      <point x="11062.416426243717" y="1252.0" />
+      <point x="11062.416426243717" y="546.0" />
+      <point x="13010.178021266342" y="546.0" />
+      <point x="-46.5" y="14.5" />
+    </edge>
+    <edge source="network.ClientController" target="network.Client">
+      <point x="-36.0" y="-14.5" />
+      <point x="2476.088656981192" y="2179.0" />
+      <point x="502.3743712669075" y="2179.0" />
+      <point x="34.58333333333394" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTypeOfEffectRequest" target="network.requests.Request">
+      <point x="56.75" y="-14.5" />
+      <point x="7552.5" y="1631.0" />
+      <point x="9136.20229334483" y="1631.0" />
+      <point x="-37.86363636363603" y="14.5" />
+    </edge>
+    <edge source="view.gui.WeaponPane" target="view.gui.GUIViewJavaFX">
+      <point x="-32.25" y="14.5" />
+      <point x="12026.04531703756" y="2757.0" />
+      <point x="12434.305905881725" y="2757.0" />
+      <point x="-19.384615384615245" y="-14.5" />
+    </edge>
+    <edge source="model.board.AmmoTile" target="model.utility.Ammo">
+      <point x="0.0" y="-14.5" />
+      <point x="13556.742729157228" y="69.0" />
+      <point x="11500.648201652946" y="69.0" />
+      <point x="7.25" y="14.5" />
+    </edge>
+    <edge source="network.response.PlayerCreatedResponse" target="model.player.PlayerView">
+      <point x="48.25" y="-14.5" />
+      <point x="6394.0" y="2618.0" />
+      <point x="10285.75" y="2618.0" />
+      <point x="10285.75" y="1751.0" />
+      <point x="11032.900735294119" y="1751.0" />
+      <point x="-26.823529411763957" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.EnemyWeaponsPane">
+      <point x="19.350000000000364" y="-14.5" />
+      <point x="13331.482944311509" y="2628.0" />
+      <point x="13500.082670883088" y="2628.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIViewJavaFX" target="view.gui.GUIListener">
+      <point x="-20.57142857142935" y="14.5" />
+      <point x="12433.119092694911" y="2986.0" />
+      <point x="7328.375985067245" y="2986.0" />
+      <point x="48.0" y="-14.5" />
+    </edge>
+    <edge source="network.ManagerObserver" target="network.NetworkManager">
+      <point x="39.25" y="14.5" />
+      <point x="16055.941767618766" y="2807.0" />
+      <point x="15949.86813115645" y="2807.0" />
+      <point x="16.392857142856883" y="-14.5" />
+    </edge>
+    <edge source="network.ResponseDecoder" target="network.response.ResponseHandler">
+      <point x="-53.0" y="-14.5" />
+      <point x="156.75" y="2269.0" />
+      <point x="121.25" y="2269.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.WrongTargetException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="2210.5" y="3248.0" />
+      <point x="1344.5357142857142" y="3248.0" />
+      <point x="46.28571428571422" y="14.5" />
+    </edge>
+    <edge source="model.exceptions.WeaponsException" target="model.exceptions.GameException">
+      <point x="0.0" y="-14.5" />
+      <point x="83.5" y="3228.0" />
+      <point x="1231.392857142857" y="3228.0" />
+      <point x="-66.85714285714289" y="14.5" />
+    </edge>
+    <edge source="network.response.PrintHelpResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4890.75" y="2638.0" />
+      <point x="4585.330546142464" y="2638.0" />
+      <point x="7.44827586206884" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseActionRequest" target="network.requests.Request">
+      <point x="-46.25" y="-14.5" />
+      <point x="10547.5" y="1621.0" />
+      <point x="9203.020475163012" y="1621.0" />
+      <point x="28.95454545454504" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.weapon.actions.Action">
+      <point x="0.0" y="-14.5" />
+      <point x="14568.084044509462" y="1980.0" />
+      <point x="15115.667844510088" y="1980.0" />
+      <point x="15115.667844510088" y="1083.0" />
+      <point x="15000.938918702239" y="1083.0" />
+      <point x="15000.938918702239" y="805.0" />
+      <point x="711.6243712669075" y="805.0" />
+      <point x="40.0" y="14.5" />
+    </edge>
+    <edge source="model.board.TileView" target="model.weapon.Weapon">
+      <point x="36.75" y="-14.5" />
+      <point x="10903.786764705883" y="1123.0" />
+      <point x="11254.603926243717" y="1123.0" />
+      <point x="-12.375" y="14.5" />
+    </edge>
+    <edge source="view.gui.BtnAmmo" target="view.gui.GUIViewJavaFX">
+      <point x="-27.25" y="14.5" />
+      <point x="12534.34544431151" y="1851.0" />
+      <point x="11721.815667420815" y="1851.0" />
+      <point x="11721.815667420815" y="2807.0" />
+      <point x="12406.613598189417" y="2807.0" />
+      <point x="-47.07692307692378" y="-14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices_Client" target="model.enums.AmmoColor">
+      <point x="-28.350000000000364" y="-14.5" />
+      <point x="8370.4" y="1571.0" />
+      <point x="8226.9375" y="1571.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.MultiTextResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4512.75" y="2658.0" />
+      <point x="4577.8822702803955" y="2658.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.requests.GetLobbiesRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="9672.25" y="1671.0" />
+      <point x="9180.747747890284" y="1671.0" />
+      <point x="6.6818181818180165" y="14.5" />
+    </edge>
+    <edge source="network.ViewProxy" target="controller.TurnStateController">
+      <point x="28.0" y="-14.5" />
+      <point x="15672.833311908727" y="417.0" />
+      <point x="15870.834624761621" y="417.0" />
+      <point x="-21.25" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerDamagePane" target="view.gui.DamageImagePane">
+      <point x="0.0" y="-14.5" />
+      <point x="13601.082670883088" y="1851.0" />
+      <point x="13724.749337549754" y="1851.0" />
+      <point x="-54.33333333333394" y="14.5" />
+    </edge>
+    <edge source="view.gui.ZoomPane" target="view.gui.GUIViewJavaFX">
+      <point x="-28.5" y="14.5" />
+      <point x="13046.93954780679" y="2658.0" />
+      <point x="12892.295444311509" y="2658.0" />
+      <point x="12892.295444311509" y="2757.0" />
+      <point x="12467.536675112495" y="2757.0" />
+      <point x="13.846153846154266" y="-14.5" />
+    </edge>
+    <edge source="network.requests.GamesStatusRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="8941.25" y="1691.0" />
+      <point x="9162.929566072102" y="1691.0" />
+      <point x="-11.136363636363967" y="14.5" />
+    </edge>
+    <edge source="model.weapon.actions.DamageAction" target="model.weapon.actions.Action">
+      <point x="-45.66666666666606" y="-14.5" />
+      <point x="686.8958333333339" y="954.0" />
+      <point x="713.8125" y="954.0" />
+      <point x="713.8125" y="875.0" />
+      <point x="663.6243712669075" y="875.0" />
+      <point x="-8.0" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="network.ViewProxy">
+      <point x="43.714285714285325" y="-14.5" />
+      <point x="15539.362178775496" y="2249.0" />
+      <point x="15635.499978575395" y="2249.0" />
+      <point x="-9.33333333333303" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="network.ViewProxy">
+      <point x="39.230769230769056" y="-14.5" />
+      <point x="15178.964813740231" y="726.0" />
+      <point x="15598.166645242061" y="726.0" />
+      <point x="-46.66666666666697" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.Gamemodes" target="model.gamemodes.GameMode">
+      <point x="0.0" y="-14.5" />
+      <point x="14.625" y="14.5" />
+    </edge>
+    <edge source="network.response.SetNewPossibileCommandsResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="5132.25" y="2628.0" />
+      <point x="4589.054684073499" y="2628.0" />
+      <point x="11.17241379310326" y="14.5" />
+    </edge>
+    <edge source="model.player.PlayerView" target="model.utility.Ammo">
+      <point x="0.0" y="-14.5" />
+      <point x="11059.724264705883" y="1272.0" />
+      <point x="11032.791426243717" y="1272.0" />
+      <point x="11032.791426243717" y="59.0" />
+      <point x="11471.648201652946" y="59.0" />
+      <point x="-21.75" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseDirectionResponse" target="model.enums.Direction">
+      <point x="-52.5" y="-14.5" />
+      <point x="2409.75" y="2418.0" />
+      <point x="1068.0" y="2418.0" />
+      <point x="1068.0" y="2040.0" />
+      <point x="11356.085701652946" y="2040.0" />
+      <point x="11356.085701652946" y="1851.0" />
+      <point x="11390.577205882353" y="1851.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.ZoomPane" target="view.gui.BtnWeapon">
+      <point x="-28.5" y="-14.5" />
+      <point x="13046.93954780679" y="2219.0" />
+      <point x="12936.69052126634" y="2219.0" />
+      <point x="12936.69052126634" y="1940.0" />
+      <point x="12109.340393992392" y="1940.0" />
+      <point x="48.399999999999636" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.utility.CurrentTurn">
+      <point x="-34.0" y="-14.5" />
+      <point x="15461.647893061212" y="2179.0" />
+      <point x="14568.084044509462" y="2179.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.utility.LobbyInfo" target="model.utility.MapInfoView">
+      <point x="27.5" y="-14.5" />
+      <point x="2700.625985067245" y="2259.0" />
+      <point x="8176.582270280396" y="2259.0" />
+      <point x="-50.79999999999927" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.EnemiesBoardPane">
+      <point x="-32.25" y="-14.5" />
+      <point x="13279.88294431151" y="2628.0" />
+      <point x="12823.31454780679" y="2628.0" />
+      <point x="41.5" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.gamemodes.Gamemodes">
+      <point x="-53.42857142857156" y="-14.5" />
+      <point x="15442.219321632641" y="2199.0" />
+      <point x="14270.476901652319" y="2199.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.enums.PlayerState">
+      <point x="-19.615384615384755" y="-14.5" />
+      <point x="15120.118659894077" y="486.0" />
+      <point x="13764.655893960637" y="486.0" />
+      <point x="29.25" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.ViewListener">
+      <point x="-71.03571428571468" y="-14.5" />
+      <point x="15862.439559727878" y="2857.0" />
+      <point x="14342.976901652319" y="2857.0" />
+      <point x="14342.976901652319" y="357.0" />
+      <point x="5356.50825534764" y="357.0" />
+      <point x="31.5" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.PlayerPointsPane">
+      <point x="32.25" y="-14.5" />
+      <point x="13344.38294431151" y="2638.0" />
+      <point x="13691.082670883088" y="2638.0" />
+      <point x="-38.5" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIViewJavaFX" target="model.player.PlayerView">
+      <point x="-52.615384615384755" y="-14.5" />
+      <point x="12401.075136650956" y="2817.0" />
+      <point x="11702.940667420815" y="2817.0" />
+      <point x="11702.940667420815" y="1551.0" />
+      <point x="11086.547794117647" y="1551.0" />
+      <point x="26.823529411763957" y="14.5" />
+    </edge>
+    <edge source="network.ClientSocket" target="network.ResponseDecoder">
+      <point x="-46.875" y="-14.5" />
+      <point x="289.625" y="2658.0" />
+      <point x="209.75" y="2658.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseAmmoResponse" target="model.enums.AmmoColor">
+      <point x="-48.5" y="-14.5" />
+      <point x="1965.75" y="2438.0" />
+      <point x="1046.0" y="2438.0" />
+      <point x="1046.0" y="407.0" />
+      <point x="8178.9375" y="407.0" />
+      <point x="-48.0" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.weapon.Weapon">
+      <point x="-24.285714285714675" y="-14.5" />
+      <point x="15471.362178775496" y="2169.0" />
+      <point x="14640.584044509462" y="2169.0" />
+      <point x="14640.584044509462" y="1113.0" />
+      <point x="11304.103926243717" y="1113.0" />
+      <point x="37.125" y="14.5" />
+    </edge>
+    <edge source="view.gui.GUIViewJavaFX" target="view.cli.CommandParsing">
+      <point x="-69.23076923076951" y="-14.5" />
+      <point x="12384.459752035571" y="2847.0" />
+      <point x="2911.25" y="2847.0" />
+      <point x="39.0" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="network.ManagerObserver">
+      <point x="63.14285714285688" y="-14.5" />
+      <point x="15558.790750204069" y="2269.0" />
+      <point x="15977.441767618766" y="2269.0" />
+      <point x="-39.25" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn" target="model.powerup.PowerUp">
+      <point x="38.15384615384619" y="-14.5" />
+      <point x="14606.23789066331" y="2020.0" />
+      <point x="15247.840921433162" y="2020.0" />
+      <point x="15247.840921433162" y="656.0" />
+      <point x="15200.303275278693" y="656.0" />
+      <point x="41.600000000000364" y="14.5" />
+    </edge>
+    <edge source="view.gui.GameBoardPane" target="view.gui.GUIViewJavaFX">
+      <point x="-37.5" y="14.5" />
+      <point x="12493.834624761623" y="2727.0" />
+      <point x="12450.92129049711" y="2727.0" />
+      <point x="-2.7692307692304894" y="-14.5" />
+    </edge>
+    <edge source="network.response.TextResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4133.75" y="2638.0" />
+      <point x="4570.433994418327" y="2638.0" />
+      <point x="-7.44827586206884" y="14.5" />
+    </edge>
+    <edge source="network.notify" target="model.player.PlayerView">
+      <point x="-30.75" y="-14.5" />
+      <point x="11460.185701652945" y="2378.0" />
+      <point x="11381.585701652946" y="2378.0" />
+      <point x="11381.585701652946" y="1581.0" />
+      <point x="11079.841911764706" y="1581.0" />
+      <point x="20.117647058823422" y="14.5" />
+    </edge>
+    <edge source="model.player.Player" target="model.weapon.Weapon">
+      <point x="-28.33333333333394" y="14.5" />
+      <point x="15111.400711176128" y="865.0" />
+      <point x="11362.998029739" y="865.0" />
+      <point x="11362.998029739" y="1004.0" />
+      <point x="11308.228926243717" y="1004.0" />
+      <point x="41.25" y="-14.5" />
+    </edge>
+    <edge source="model.weapon.actions.MarkAction" target="model.weapon.actions.Action">
+      <point x="0.0" y="-14.5" />
+      <point x="965.5" y="845.0" />
+      <point x="687.6243712669075" y="845.0" />
+      <point x="16.0" y="14.5" />
+    </edge>
+    <edge source="model.board.TileView" target="model.enums.RoomColor">
+      <point x="-36.75" y="-14.5" />
+      <point x="10830.286764705883" y="1073.0" />
+      <point x="10751.875421687077" y="1073.0" />
+      <point x="9.66666666666697" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.PlayerCountdown">
+      <point x="-27.32142857142844" y="-14.5" />
+      <point x="15906.153845442164" y="2817.0" />
+      <point x="15472.453182406747" y="2817.0" />
+      <point x="-39.25" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateEnemyPlayerResponse" target="network.response.Response">
+      <point x="-57.75" y="-14.5" />
+      <point x="6520.0" y="2438.0" />
+      <point x="4615.12364959074" y="2438.0" />
+      <point x="37.2413793103442" y="14.5" />
+    </edge>
+    <edge source="network.ServerController" target="network.RemoteController">
+      <point x="-55.5" y="-14.5" />
+      <point x="14224.11391870224" y="2946.0" />
+      <point x="9169.464137700583" y="2946.0" />
+      <point x="38.75" y="14.5" />
+    </edge>
+    <edge source="network.requests.TokenGenerationRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="10173.25" y="1641.0" />
+      <point x="9194.11138425392" y="1641.0" />
+      <point x="20.04545454545496" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.NormalGameMode" target="model.board.PointsBoard">
+      <point x="0.0" y="-14.5" />
+      <point x="12639.69052126634" y="1990.0" />
+      <point x="12980.490521266342" y="1990.0" />
+      <point x="12980.490521266342" y="556.0" />
+      <point x="13041.178021266342" y="556.0" />
+      <point x="-15.5" y="14.5" />
+    </edge>
+    <edge source="network.requests.QuitRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="8769.25" y="1681.0" />
+      <point x="9158.475020617556" y="1681.0" />
+      <point x="-15.590909090909008" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerPointsPane" target="view.gui.GUIViewJavaFX">
+      <point x="38.5" y="14.5" />
+      <point x="13768.082670883088" y="2807.0" />
+      <point x="12495.228982804801" y="2807.0" />
+      <point x="41.53846153846098" y="-14.5" />
+    </edge>
+    <edge source="network.ClientHandler" target="network.ViewListener">
+      <point x="-32.75" y="-14.5" />
+      <point x="32.75" y="377.0" />
+      <point x="5272.50825534764" y="377.0" />
+      <point x="-52.5" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateEnemyPlayerResponse" target="model.player.PlayerView">
+      <point x="57.75" y="-14.5" />
+      <point x="6635.5" y="2628.0" />
+      <point x="10696.75" y="2628.0" />
+      <point x="10696.75" y="1771.0" />
+      <point x="11046.3125" y="1771.0" />
+      <point x="-13.411764705882888" y="14.5" />
+    </edge>
+    <edge source="view.gui.BtnPowerUp" target="model.powerup.PowerUp">
+      <point x="0.0" y="-14.5" />
+      <point x="14086.582670883088" y="636.0" />
+      <point x="15151.76994194536" y="636.0" />
+      <point x="-6.933333333333394" y="14.5" />
+    </edge>
+    <edge source="model.utility.PossibleChoices" target="model.board.Tile">
+      <point x="37.0" y="-14.5" />
+      <point x="14942.060357362356" y="1401.0" />
+      <point x="14842.953275278693" y="1401.0" />
+      <point x="14842.953275278693" y="1123.0" />
+      <point x="15068.445582971" y="1123.0" />
+      <point x="15068.445582971" y="387.0" />
+      <point x="15220.857793259793" y="387.0" />
+      <point x="-15.33333333333303" y="14.5" />
+    </edge>
+    <edge source="view.gui.PlayerAmmoPane" target="view.gui.GUIViewJavaFX">
+      <point x="-38.5" y="14.5" />
+      <point x="12683.490521266342" y="1970.0" />
+      <point x="12172.79629049711" y="1970.0" />
+      <point x="12172.79629049711" y="2747.0" />
+      <point x="12439.844367420186" y="2747.0" />
+      <point x="-13.846153846154266" y="-14.5" />
+    </edge>
+    <edge source="network.NetworkCountdown" target="network.NetworkManager">
+      <point x="43.0" y="14.5" />
+      <point x="15927.691767618766" y="2787.0" />
+      <point x="15938.939559727878" y="2787.0" />
+      <point x="5.4642857142853245" y="-14.5" />
+    </edge>
+    <edge source="view.gui.PlayingScene" target="view.gui.PlayerBoardPane">
+      <point x="-19.350000000000364" y="-14.5" />
+      <point x="13292.782944311508" y="2618.0" />
+      <point x="12875.31454780679" y="2618.0" />
+      <point x="12875.31454780679" y="2249.0" />
+      <point x="13228.501291428289" y="2249.0" />
+      <point x="50.66666666666606" y="14.5" />
+    </edge>
+    <edge source="network.ClientSocket" target="view.ViewClient">
+      <point x="15.625" y="-14.5" />
+      <point x="352.125" y="2478.0" />
+      <point x="420.5" y="2478.0" />
+      <point x="420.5" y="2209.0" />
+      <point x="2670.6322702803955" y="2209.0" />
+      <point x="-48.0" y="14.5" />
+    </edge>
+    <edge source="view.gui.DamageImagePane" target="view.gui.GUIViewJavaFX">
+      <point x="54.33333333333394" y="14.5" />
+      <point x="13833.416004216422" y="1501.0" />
+      <point x="14164.851901652319" y="1501.0" />
+      <point x="14164.851901652319" y="2857.0" />
+      <point x="12522.92129049711" y="2857.0" />
+      <point x="69.23076923076951" y="-14.5" />
+    </edge>
+    <edge source="network.requests.ChooseEffectRequest" target="model.weapon.Effect">
+      <point x="-45.5" y="-14.5" />
+      <point x="5048.00825534764" y="1581.0" />
+      <point x="5088.00825534764" y="1581.0" />
+      <point x="5088.00825534764" y="1004.0" />
+      <point x="8129.210227272728" y="1004.0" />
+      <point x="-7.727272727272521" y="14.5" />
+    </edge>
+    <edge source="view.gui.WeaponPane" target="view.gui.BtnWeapon">
+      <point x="0.0" y="-14.5" />
+      <point x="12058.29531703756" y="2259.0" />
+      <point x="11972.04629049711" y="2259.0" />
+      <point x="11972.04629049711" y="1940.0" />
+      <point x="12060.94039399239" y="1940.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.ServerController" target="model.enums.TurnState">
+      <point x="-18.5" y="-14.5" />
+      <point x="14261.11391870224" y="2936.0" />
+      <point x="14175.851901652319" y="2936.0" />
+      <point x="14175.851901652319" y="238.0" />
+      <point x="15315.245683337926" y="238.0" />
+      <point x="-36.33333333333303" y="14.5" />
+    </edge>
+    <edge source="model.gamemodes.FinalFrenzyGameMode" target="model.board.PointsBoard">
+      <point x="-23.25" y="-14.5" />
+      <point x="12809.94052126634" y="2010.0" />
+      <point x="13141.803021266342" y="2010.0" />
+      <point x="13141.803021266342" y="556.0" />
+      <point x="13072.178021266342" y="556.0" />
+      <point x="15.5" y="14.5" />
+    </edge>
+    <edge source="network.response.LobbyStatusResponse" target="network.response.Response">
+      <point x="46.5" y="-14.5" />
+      <point x="2726.75" y="2578.0" />
+      <point x="4548.08916683212" y="2578.0" />
+      <point x="-29.79310344827536" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="model.board.GameManager">
+      <point x="-38.25" y="-14.5" />
+      <point x="15895.225274013594" y="2827.0" />
+      <point x="15422.703182406747" y="2827.0" />
+      <point x="15422.703182406747" y="2658.0" />
+      <point x="15450.314559727878" y="2658.0" />
+      <point x="-45.33333333333303" y="14.5" />
+    </edge>
+    <edge source="view.gui.ScoreBoardScene" target="view.gui.GUIViewJavaFX">
+      <point x="0.0" y="-14.5" />
+      <point x="12639.0833784092" y="3006.0" />
+      <point x="12515.404806980627" y="3006.0" />
+      <point x="61.714285714286234" y="14.5" />
+    </edge>
+    <edge source="model.utility.CurrentTurn.EffectActions" target="model.weapon.actions.Action">
+      <point x="32.999999999999545" y="-14.5" />
+      <point x="14761.084044509462" y="815.0" />
+      <point x="703.6243712669075" y="815.0" />
+      <point x="32.0" y="14.5" />
+    </edge>
+    <edge source="model.board.GameManager" target="model.board.AmmoTile">
+      <point x="53.42857142857156" y="-14.5" />
+      <point x="15549.076464489783" y="2259.0" />
+      <point x="15711.333311908727" y="2259.0" />
+      <point x="15711.333311908727" y="307.0" />
+      <point x="15486.753937017258" y="307.0" />
+      <point x="15486.753937017258" y="168.0" />
+      <point x="13597.242729157228" y="168.0" />
+      <point x="40.5" y="14.5" />
+    </edge>
+    <edge source="model.weapon.Effect" target="model.utility.Visibility">
+      <point x="10.625" y="-14.5" />
+      <point x="8147.5625" y="845.0" />
+      <point x="8166.9375" y="845.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.0539436791417774" x="8193.0" y="1668.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

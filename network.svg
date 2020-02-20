@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>network</OriginalElement>
+  <nodes>
+    <node x="1745.0000000000002" y="982.0">network.requests.TokenGenerationRequest</node>
+    <node x="1149.25" y="267.0">network.ClientController</node>
+    <node x="2481.0" y="982.0">network.requests.ChooseEffectRequest</node>
+    <node x="7951.0" y="729.0">network.response.ChooseWeaponResponse</node>
+    <node x="455.25000000000006" y="267.0">network.NetworkCountdown</node>
+    <node x="214.0" y="729.0">network.notify.NotifyOnPowerUpDiscard</node>
+    <node x="1249.0000000000005" y="729.0">network.notify.NotifyOnDamage</node>
+    <node x="2775.0000000000005" y="729.0">network.notify.NotifyOnPowerUpDrawByEnemy</node>
+    <node x="3934.0" y="982.0">network.requests.GamesStatusRequest</node>
+    <node x="807.0000000000005" y="729.0">network.notify.NotifyOnFinalFrenzyStart</node>
+    <node x="1147.0000000000002" y="982.0">network.requests.ChooseRoomRequest</node>
+    <node x="4166.0" y="729.0">network.response.ActiveTurnResponse</node>
+    <node x="1972.0000000000005" y="729.0">network.notify.NotifyOnMovement</node>
+    <node x="2265.0" y="982.0">network.requests.ChooseWeaponRequest</node>
+    <node x="6610.0" y="729.0">network.response.PrintHelpResponse</node>
+    <node x="522.5546798029558" y="79.0">network.PlayerCountdown</node>
+    <node x="4871.0" y="729.0">network.response.InactivityResponse</node>
+    <node x="1969.0000000000002" y="982.0">network.requests.QuitRequest</node>
+    <node x="388.0000000000002" y="982.0">network.requests.AckPing</node>
+    <node x="3596.0000000000005" y="729.0">network.notify.NotifyOnMarks</node>
+    <node x="4590.0" y="803.0">network.SaveGameUtility</node>
+    <node x="2056.0" y="803.0">network.requests.Request</node>
+    <node x="1513.25" y="267.0">network.ResponseDecoder</node>
+    <node x="727.0000000000002" y="982.0">network.requests.ChooseNothingRequest</node>
+    <node x="7364.0" y="729.0">network.response.UpdateCurrentPlayerResponse</node>
+    <node x="4134.0" y="982.0">network.requests.PlayerCreateRequest</node>
+    <node x="605.0" y="729.0">network.notify.NotifyOnEnemyPlayer</node>
+    <node x="9211.0" y="729.0">network.response.MapInfoResponse</node>
+    <node x="6400.0" y="729.0">network.response.ChooseRoomResponse</node>
+    <node x="4783.0" y="803.0">network.ClientContext</node>
+    <node x="647.25" y="267.0">network.ServerController</node>
+    <node x="440.0" y="729.0">network.notify.NotifyOnSpawn</node>
+    <node x="1347.0000000000002" y="982.0">network.requests.CreateGameRequest</node>
+    <node x="278.25000000000006" y="267.0">network.ManagerObserver</node>
+    <node x="0.0" y="346.0">network.ClientHandler</node>
+    <node x="2563.0000000000005" y="729.0">network.notify.NotifyOnPowerUpUsed</node>
+    <node x="3757.0000000000005" y="729.0">network.notify.NotifyOnEndGame</node>
+    <node x="3214.0000000000005" y="729.0">network.notify.NotifyOnEndTurn</node>
+    <node x="2683.0" y="982.0">network.requests.AlreadyExistingTokenRequest</node>
+    <node x="3043.0000000000005" y="729.0">network.notify.NotifyOnActions</node>
+    <node x="4575.0" y="729.0">network.response.UpdateWeaponsPowPointsResponse</node>
+    <node x="376.7377668308704" y="79.0">network.MyTimer</node>
+    <node x="5734.0" y="729.0">network.response.TokenGeneratedResponse</node>
+    <node x="5054.0" y="729.0">network.response.GamesStatusResponse</node>
+    <node x="135.0347701149426" y="178.0">network.ConnectionServerTimer</node>
+    <node x="2160.0000000000005" y="729.0">network.notify.NotifyOnWeaponReload</node>
+    <node x="2934.0" y="982.0">network.requests.ChooseTileRequest</node>
+    <node x="3367.0" y="982.0">network.requests.PrintHelpRequest</node>
+    <node x="2376.0000000000005" y="729.0">network.notify.NotifyOnKillUpdate</node>
+    <node x="8177.0" y="729.0">network.response.ChooseDirectionResponse</node>
+    <node x="942.0000000000002" y="982.0">network.requests.ChooseTargetRequest</node>
+    <node x="8668.0" y="729.0">network.response.QuitResponse</node>
+    <node x="263.5357142857144" y="0.0">network.ViewListener</node>
+    <node x="5264.0" y="729.0">network.response.ChooseTypeOfEffectResponse</node>
+    <node x="1138.5" y="178.0">network.Client</node>
+    <node x="8822.0" y="729.0">network.response.ValidGameResponse</node>
+    <node x="5964.0" y="729.0">network.response.MultiTextResponse</node>
+    <node x="1602.0000000000005" y="729.0">network.notify.NotifyOnPoints</node>
+    <node x="6795.0" y="729.0">network.response.TextResponse</node>
+    <node x="1540.0000000000002" y="982.0">network.requests.ChooseActionRequest</node>
+    <node x="1422.0000000000005" y="729.0">network.notify.NotifyOnPowerUp</node>
+    <node x="7833.0" y="729.0">network.response.SynPing</node>
+    <node x="7621.0" y="729.0">network.response.ChooseEffectResponse</node>
+    <node x="3730.0" y="982.0">network.requests.ChooseAmmoRequest</node>
+    <node x="815.25" y="267.0">network.ClientRmi</node>
+    <node x="2113.0" y="982.0">network.requests.WakeRequest</node>
+    <node x="1030.0000000000005" y="729.0">network.notify.NotifyOnPowerUpDrawn</node>
+    <node x="411.0045155993432" y="178.0">network.NetworkManager</node>
+    <node x="1161.7249178981938" y="346.0">network.ClientSocket</node>
+    <node x="168.00000000000023" y="982.0">network.requests.ChooseDirectionRequest</node>
+    <node x="1765.0000000000005" y="729.0">network.notify.NotifyOnWeaponUsed</node>
+    <node x="4354.0" y="803.0">network.PersistenceCountdown</node>
+    <node x="3542.0" y="982.0">network.requests.GetLobbiesRequest</node>
+    <node x="1313.25" y="267.0">network.RetryConnectionTask</node>
+    <node x="9389.0" y="729.0">network.response.ChooseTargetResponse</node>
+    <node x="940.25" y="267.0">network.ConnectionClientTimer</node>
+    <node x="722.375" y="178.0">network.RemoteController</node>
+    <node x="3120.0" y="982.0">network.requests.ChooseTypeOfEffectRequest</node>
+    <node x="5521.0" y="729.0">network.response.PlayerCreatedResponse</node>
+    <node x="9604.0" y="729.0">network.response.SetNewPossibileCommandsResponse</node>
+    <node x="4361.0" y="729.0">network.response.ChooseAmmoResponse</node>
+    <node x="6149.0" y="729.0">network.response.UpdateEnemyPlayerResponse</node>
+    <node x="43.25" y="267.0">network.ConnectionAckServerTimer</node>
+    <node x="3391.0000000000005" y="729.0">network.notify.NotifyOnWeaponGrab</node>
+    <node x="682.25" y="346.0">network.AdrenalineServer</node>
+    <node x="177.28571428571445" y="79.0">network.ViewProxy</node>
+    <node x="0.0" y="729.0">network.notify.NotifyOnAmmoTileGrab</node>
+    <node x="1497.0" y="178.0">network.response.ResponseHandler</node>
+    <node x="8407.0" y="729.0">network.response.AlreadyExistingTokenResponse</node>
+    <node x="7156.0" y="729.0">network.response.GameStartedResponse</node>
+    <node x="9015.0" y="729.0">network.response.ChooseTileResponse</node>
+    <node x="4778.75" y="420.0">network.response.Response</node>
+    <node x="6950.0" y="729.0">network.response.LobbyStatusResponse</node>
+    <node x="3940.0000000000005" y="729.0">network.response.LostConnectionResponse</node>
+    <node x="506.0000000000002" y="982.0">network.requests.ChoosePowerUpRequest</node>
+    <node x="0.0" y="982.0">network.requests.MapInfoRequest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="network.PlayerCountdown" target="network.NetworkManager">
+      <point x="39.250000000000114" y="14.5" />
+      <point x="640.3046798029559" y="158.0" />
+      <point x="553.0759441707719" y="158.0" />
+      <point x="65.57142857142867" y="-14.5" />
+    </edge>
+    <edge source="network.requests.ChoosePowerUpRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="606.5000000000002" y="892.0" />
+      <point x="2071.590909090909" y="892.0" />
+      <point x="-33.40909090909099" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnWeaponUsed" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="1858.5000000000005" y="569.0" />
+      <point x="4800.125" y="569.0" />
+      <point x="-32.625" y="14.5" />
+    </edge>
+    <edge source="network.AdrenalineServer" target="network.ServerController">
+      <point x="1.1368683772161603E-13" y="-14.5" />
+      <point x="37.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseTypeOfEffectResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="5382.5" y="679.0" />
+      <point x="4838.375" y="679.0" />
+      <point x="5.625" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.ViewProxy">
+      <point x="-65.57142857142844" y="-14.5" />
+      <point x="421.9330870279148" y="158.0" />
+      <point x="247.28571428571445" y="158.0" />
+      <point x="14.0" y="14.5" />
+    </edge>
+    <edge source="network.response.LostConnectionResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4043.0000000000005" y="679.0" />
+      <point x="4824.875" y="679.0" />
+      <point x="-7.875" y="14.5" />
+    </edge>
+    <edge source="network.response.GameStartedResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="7250.0" y="589.0" />
+      <point x="4858.625" y="589.0" />
+      <point x="25.875" y="14.5" />
+    </edge>
+    <edge source="network.ClientRmi" target="network.Client">
+      <point x="26.25" y="-14.5" />
+      <point x="894.0" y="227.0" />
+      <point x="1145.4166666666665" y="227.0" />
+      <point x="-34.583333333333314" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnMarks" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3666.5000000000005" y="659.0" />
+      <point x="4820.375" y="659.0" />
+      <point x="-12.375" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnAmmoTileGrab" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="97.0" y="479.0" />
+      <point x="4779.875" y="479.0" />
+      <point x="-52.875" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseEffectRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="2572.0" y="932.0" />
+      <point x="2116.136363636364" y="932.0" />
+      <point x="11.136363636363512" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnWeaponGrab" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3483.5000000000005" y="649.0" />
+      <point x="4818.125" y="649.0" />
+      <point x="-14.625" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnMovement" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="2056.0000000000005" y="579.0" />
+      <point x="4802.375" y="579.0" />
+      <point x="-30.375" y="14.5" />
+    </edge>
+    <edge source="network.ConnectionAckServerTimer" target="network.NetworkManager">
+      <point x="53.75" y="-14.5" />
+      <point x="204.5" y="237.0" />
+      <point x="426.3045155993432" y="237.0" />
+      <point x="-61.200000000000045" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseDirectionResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="8282.0" y="539.0" />
+      <point x="4869.875" y="539.0" />
+      <point x="37.125" y="14.5" />
+    </edge>
+    <edge source="network.ViewProxy" target="network.ViewListener">
+      <point x="0.0" y="-14.5" />
+      <point x="233.28571428571445" y="59.0" />
+      <point x="310.7857142857144" y="59.0" />
+      <point x="-15.75" y="14.5" />
+    </edge>
+    <edge source="network.response.AlreadyExistingTokenResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="8527.5" y="529.0" />
+      <point x="4872.125" y="529.0" />
+      <point x="39.375" y="14.5" />
+    </edge>
+    <edge source="network.requests.PrintHelpRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="3444.5" y="892.0" />
+      <point x="2133.954545454546" y="892.0" />
+      <point x="28.954545454545496" y="14.5" />
+    </edge>
+    <edge source="network.ClientHandler" target="network.ServerController">
+      <point x="32.75" y="-14.5" />
+      <point x="98.25" y="321.0" />
+      <point x="684.25" y="321.0" />
+      <point x="-37.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ValidGameResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="8908.5" y="509.0" />
+      <point x="4876.625" y="509.0" />
+      <point x="43.875" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnEndTurn" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3292.5000000000005" y="639.0" />
+      <point x="4815.875" y="639.0" />
+      <point x="-16.875" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnPowerUpDrawn" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="1129.5000000000005" y="529.0" />
+      <point x="4791.125" y="529.0" />
+      <point x="-41.625" y="14.5" />
+    </edge>
+    <edge source="network.response.SynPing" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="7882.0" y="559.0" />
+      <point x="4865.375" y="559.0" />
+      <point x="32.625" y="14.5" />
+    </edge>
+    <edge source="network.response.TokenGeneratedResponse" target="network.response.Response">
+      <point x="4.547473508864641E-13" y="-14.5" />
+      <point x="5839.000000000001" y="659.0" />
+      <point x="4842.875" y="659.0" />
+      <point x="10.125" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTargetRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="1034.5000000000002" y="912.0" />
+      <point x="2080.5" y="912.0" />
+      <point x="-24.5" y="14.5" />
+    </edge>
+    <edge source="network.response.PlayerCreatedResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="5617.5" y="669.0" />
+      <point x="4840.625" y="669.0" />
+      <point x="7.875" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseNothingRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="824.5000000000002" y="902.0" />
+      <point x="2076.045454545455" y="902.0" />
+      <point x="-28.954545454545496" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateWeaponsPowPointsResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4713.0" y="709.0" />
+      <point x="4831.625" y="709.0" />
+      <point x="-1.125" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseDirectionRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="268.0000000000002" y="872.0" />
+      <point x="2062.681818181818" y="872.0" />
+      <point x="-42.31818181818198" y="14.5" />
+    </edge>
+    <edge source="network.requests.AlreadyExistingTokenRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="2798.5" y="922.0" />
+      <point x="2120.590909090909" y="922.0" />
+      <point x="15.590909090909008" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnPowerUpDrawByEnemy" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="2899.0000000000005" y="619.0" />
+      <point x="4811.375" y="619.0" />
+      <point x="-21.375" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseWeaponRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="2363.0" y="942.0" />
+      <point x="2111.681818181818" y="942.0" />
+      <point x="6.6818181818180165" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnPoints" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="1673.5000000000005" y="559.0" />
+      <point x="4797.875" y="559.0" />
+      <point x="-34.875" y="14.5" />
+    </edge>
+    <edge source="network.ConnectionClientTimer" target="network.Client">
+      <point x="0.0" y="-14.5" />
+      <point x="1034.25" y="237.0" />
+      <point x="1159.25" y="237.0" />
+      <point x="-20.75" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseAmmoResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4458.0" y="699.0" />
+      <point x="4829.375" y="699.0" />
+      <point x="-3.375" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnEnemyPlayer" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="696.0" y="509.0" />
+      <point x="4786.625" y="509.0" />
+      <point x="-46.125" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTileRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="3017.0" y="912.0" />
+      <point x="2125.045454545455" y="912.0" />
+      <point x="20.045454545454504" y="14.5" />
+    </edge>
+    <edge source="network.ClientRmi" target="network.RemoteController">
+      <point x="-26.25" y="-14.5" />
+      <point x="841.5" y="247.0" />
+      <point x="838.625" y="247.0" />
+      <point x="38.75" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseRoomRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="1237.0000000000002" y="922.0" />
+      <point x="2084.954545454546" y="922.0" />
+      <point x="-20.045454545454504" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseRoomResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="6495.0" y="629.0" />
+      <point x="4849.625" y="629.0" />
+      <point x="16.875" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnFinalFrenzyStart" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="908.5000000000005" y="519.0" />
+      <point x="4788.875" y="519.0" />
+      <point x="-43.875" y="14.5" />
+    </edge>
+    <edge source="network.ClientController" target="network.Client">
+      <point x="0.0" y="-14.5" />
+      <point x="1221.25" y="247.0" />
+      <point x="1186.9166666666665" y="247.0" />
+      <point x="6.916666666666686" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseTypeOfEffectRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="3233.5" y="902.0" />
+      <point x="2129.5" y="902.0" />
+      <point x="24.5" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseWeaponResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="8054.0" y="549.0" />
+      <point x="4867.625" y="549.0" />
+      <point x="34.875" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseTargetResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="9486.5" y="479.0" />
+      <point x="4883.375" y="479.0" />
+      <point x="50.625" y="14.5" />
+    </edge>
+    <edge source="network.ManagerObserver" target="network.NetworkManager">
+      <point x="0.0" y="-14.5" />
+      <point x="356.75000000000006" y="247.0" />
+      <point x="456.9045155993433" y="247.0" />
+      <point x="-30.59999999999991" y="14.5" />
+    </edge>
+    <edge source="network.ClientSocket" target="network.Client">
+      <point x="-41.66666666666663" y="-14.5" />
+      <point x="1182.5582512315273" y="321.0" />
+      <point x="1138.75" y="321.0" />
+      <point x="1138.75" y="247.0" />
+      <point x="1173.0833333333333" y="247.0" />
+      <point x="-6.916666666666686" y="14.5" />
+    </edge>
+    <edge source="network.ResponseDecoder" target="network.response.ResponseHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1592.75" y="247.0" />
+      <point x="1575.0" y="247.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnSpawn" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="512.5" y="499.0" />
+      <point x="4784.375" y="499.0" />
+      <point x="-48.375" y="14.5" />
+    </edge>
+    <edge source="network.ResponseDecoder" target="network.ViewListener">
+      <point x="53.0" y="-14.5" />
+      <point x="1645.75" y="247.0" />
+      <point x="1663.5" y="247.0" />
+      <point x="1663.5" y="49.0" />
+      <point x="373.7857142857144" y="49.0" />
+      <point x="47.25" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseActionRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="1632.5000000000002" y="942.0" />
+      <point x="2093.863636363637" y="942.0" />
+      <point x="-11.136363636363512" y="14.5" />
+    </edge>
+    <edge source="network.response.PrintHelpResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="6692.5" y="619.0" />
+      <point x="4851.875" y="619.0" />
+      <point x="19.125" y="14.5" />
+    </edge>
+    <edge source="network.RetryConnectionTask" target="network.Client">
+      <point x="0.0" y="-14.5" />
+      <point x="1403.25" y="237.0" />
+      <point x="1200.75" y="237.0" />
+      <point x="20.75" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnActions" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3118.5000000000005" y="629.0" />
+      <point x="4813.625" y="629.0" />
+      <point x="-19.125" y="14.5" />
+    </edge>
+    <edge source="network.requests.GetLobbiesRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="3626.0" y="882.0" />
+      <point x="2138.409090909091" y="882.0" />
+      <point x="33.40909090909099" y="14.5" />
+    </edge>
+    <edge source="network.response.MultiTextResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="6046.5" y="649.0" />
+      <point x="4845.125" y="649.0" />
+      <point x="12.375" y="14.5" />
+    </edge>
+    <edge source="network.response.ChooseEffectResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="7717.0" y="569.0" />
+      <point x="4863.125" y="569.0" />
+      <point x="30.375" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnWeaponReload" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="2258.0000000000005" y="589.0" />
+      <point x="4804.625" y="589.0" />
+      <point x="-28.125" y="14.5" />
+    </edge>
+    <edge source="network.requests.GamesStatusRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="4024.0" y="862.0" />
+      <point x="2147.318181818182" y="862.0" />
+      <point x="42.31818181818198" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.MyTimer">
+      <point x="0.0" y="-14.5" />
+      <point x="487.5045155993432" y="128.0" />
+      <point x="451.7377668308704" y="128.0" />
+      <point x="25.0" y="14.5" />
+    </edge>
+    <edge source="network.response.SetNewPossibileCommandsResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="9743.0" y="469.0" />
+      <point x="4885.625" y="469.0" />
+      <point x="52.875" y="14.5" />
+    </edge>
+    <edge source="network.requests.MapInfoRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="74.0" y="862.0" />
+      <point x="2058.227272727273" y="862.0" />
+      <point x="-46.77272727272748" y="14.5" />
+    </edge>
+    <edge source="network.requests.AckPing" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="437.0000000000002" y="882.0" />
+      <point x="2067.136363636364" y="882.0" />
+      <point x="-37.86363636363649" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.ViewListener">
+      <point x="21.85714285714289" y="-14.5" />
+      <point x="509.3616584564861" y="158.0" />
+      <point x="512.0546798029558" y="158.0" />
+      <point x="512.0546798029558" y="59.0" />
+      <point x="342.2857142857144" y="59.0" />
+      <point x="15.75" y="14.5" />
+    </edge>
+    <edge source="network.ClientSocket" target="network.ResponseDecoder">
+      <point x="41.666666666666686" y="-14.5" />
+      <point x="1265.8915845648605" y="321.0" />
+      <point x="1592.75" y="321.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnPowerUpDiscard" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="317.0" y="489.0" />
+      <point x="4782.125" y="489.0" />
+      <point x="-50.625" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateCurrentPlayerResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="7482.5" y="579.0" />
+      <point x="4860.875" y="579.0" />
+      <point x="28.125" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnDamage" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="1325.5000000000005" y="539.0" />
+      <point x="4793.375" y="539.0" />
+      <point x="-39.375" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.NetworkCountdown">
+      <point x="30.59999999999991" y="14.5" />
+      <point x="518.1045155993431" y="247.0" />
+      <point x="584.25" y="247.0" />
+      <point x="43.0" y="-14.5" />
+    </edge>
+    <edge source="network.response.ChooseTileResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="9103.0" y="499.0" />
+      <point x="4878.875" y="499.0" />
+      <point x="46.125" y="14.5" />
+    </edge>
+    <edge source="network.requests.WakeRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="2179.0" y="952.0" />
+      <point x="2107.227272727273" y="952.0" />
+      <point x="2.2272727272725206" y="14.5" />
+    </edge>
+    <edge source="network.ServerController" target="network.NetworkManager">
+      <point x="-37.0" y="-14.5" />
+      <point x="684.25" y="237.0" />
+      <point x="548.7045155993433" y="237.0" />
+      <point x="61.200000000000045" y="14.5" />
+    </edge>
+    <edge source="network.response.GamesStatusResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="5149.0" y="689.0" />
+      <point x="4836.125" y="689.0" />
+      <point x="3.375" y="14.5" />
+    </edge>
+    <edge source="network.response.TextResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="6862.5" y="609.0" />
+      <point x="4854.125" y="609.0" />
+      <point x="21.375" y="14.5" />
+    </edge>
+    <edge source="network.ViewProxy" target="network.NetworkManager">
+      <point x="42.0" y="14.5" />
+      <point x="275.28571428571445" y="148.0" />
+      <point x="443.79022988505744" y="148.0" />
+      <point x="-43.71428571428578" y="-14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnKillUpdate" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="2459.5000000000005" y="599.0" />
+      <point x="4806.875" y="599.0" />
+      <point x="-25.875" y="14.5" />
+    </edge>
+    <edge source="network.ConnectionAckServerTimer" target="network.ViewProxy">
+      <point x="-53.75" y="-14.5" />
+      <point x="97.0" y="158.0" />
+      <point x="191.28571428571445" y="158.0" />
+      <point x="-42.0" y="14.5" />
+    </edge>
+    <edge source="network.NetworkManager" target="network.PlayerCountdown">
+      <point x="43.71428571428578" y="-14.5" />
+      <point x="531.218801313629" y="148.0" />
+      <point x="561.8046798029558" y="148.0" />
+      <point x="-39.25" y="14.5" />
+    </edge>
+    <edge source="network.response.UpdateEnemyPlayerResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="6264.5" y="639.0" />
+      <point x="4847.375" y="639.0" />
+      <point x="14.625" y="14.5" />
+    </edge>
+    <edge source="network.ServerController" target="network.RemoteController">
+      <point x="37.0" y="-14.5" />
+      <point x="758.25" y="247.0" />
+      <point x="761.125" y="247.0" />
+      <point x="-38.75" y="14.5" />
+    </edge>
+    <edge source="network.requests.TokenGenerationRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="1847.0000000000002" y="952.0" />
+      <point x="2098.318181818182" y="952.0" />
+      <point x="-6.6818181818180165" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnPowerUp" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="1502.0000000000005" y="549.0" />
+      <point x="4795.625" y="549.0" />
+      <point x="-37.125" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnEndGame" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="3838.5000000000005" y="669.0" />
+      <point x="4822.625" y="669.0" />
+      <point x="-10.125" y="14.5" />
+    </edge>
+    <edge source="network.requests.ChooseAmmoRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="3822.0" y="872.0" />
+      <point x="2142.863636363637" y="872.0" />
+      <point x="37.86363636363649" y="14.5" />
+    </edge>
+    <edge source="network.requests.QuitRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="2031.0000000000002" y="962.0" />
+      <point x="2102.772727272728" y="962.0" />
+      <point x="-2.2272727272725206" y="14.5" />
+    </edge>
+    <edge source="network.ResponseDecoder" target="network.Client">
+      <point x="-53.0" y="-14.5" />
+      <point x="1539.75" y="227.0" />
+      <point x="1214.5833333333333" y="227.0" />
+      <point x="34.58333333333337" y="14.5" />
+    </edge>
+    <edge source="network.response.QuitResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="8735.0" y="519.0" />
+      <point x="4874.375" y="519.0" />
+      <point x="41.625" y="14.5" />
+    </edge>
+    <edge source="network.response.MapInfoResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="9290.0" y="489.0" />
+      <point x="4881.125" y="489.0" />
+      <point x="48.375" y="14.5" />
+    </edge>
+    <edge source="network.ClientHandler" target="network.ViewListener">
+      <point x="-32.75" y="-14.5" />
+      <point x="32.75" y="49.0" />
+      <point x="279.2857142857144" y="49.0" />
+      <point x="-47.25" y="14.5" />
+    </edge>
+    <edge source="network.notify.NotifyOnPowerUpUsed" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="2659.0000000000005" y="609.0" />
+      <point x="4809.125" y="609.0" />
+      <point x="-23.625" y="14.5" />
+    </edge>
+    <edge source="network.NetworkCountdown" target="network.NetworkManager">
+      <point x="-43.0" y="-14.5" />
+      <point x="498.25000000000006" y="247.0" />
+      <point x="487.5045155993432" y="247.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.response.InactivityResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4952.5" y="699.0" />
+      <point x="4833.875" y="699.0" />
+      <point x="1.125" y="14.5" />
+    </edge>
+    <edge source="network.ConnectionServerTimer" target="network.ViewProxy">
+      <point x="0.0" y="-14.5" />
+      <point x="231.0347701149426" y="158.0" />
+      <point x="219.28571428571445" y="158.0" />
+      <point x="-14.0" y="14.5" />
+    </edge>
+    <edge source="network.response.ActiveTurnResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="4253.5" y="689.0" />
+      <point x="4827.125" y="689.0" />
+      <point x="-5.625" y="14.5" />
+    </edge>
+    <edge source="network.requests.PlayerCreateRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="4221.5" y="852.0" />
+      <point x="2151.772727272728" y="852.0" />
+      <point x="46.77272727272748" y="14.5" />
+    </edge>
+    <edge source="network.response.LobbyStatusResponse" target="network.response.Response">
+      <point x="0.0" y="-14.5" />
+      <point x="7043.0" y="599.0" />
+      <point x="4856.375" y="599.0" />
+      <point x="23.625" y="14.5" />
+    </edge>
+    <edge source="network.ClientSocket" target="network.ClientController">
+      <point x="0.0" y="-14.5" />
+      <point x="1224.2249178981938" y="321.0" />
+      <point x="1221.25" y="321.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="network.requests.CreateGameRequest" target="network.requests.Request">
+      <point x="0.0" y="-14.5" />
+      <point x="1433.5000000000002" y="932.0" />
+      <point x="2089.409090909091" y="932.0" />
+      <point x="-15.590909090909008" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3394483745803497" x="1283.5855615660262" y="659.2026357517782" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
