@@ -11,7 +11,7 @@ jar for server: https://github.com/SimoneSartoni/SoftwareEngineering/blob/master
 
 Adrenaline was one of my 3 bachelor thesis projects and concerned the creation of a digital version of the board game "Adrenaline". <br /> <br />
 It was mandatory for "Software Engineering" course attended at Politecnico of Milan, but with my teammates Nicola and Carmelo we decided to go beyond the requirements and we ended with 18k lines of code... <br />
-Probably too much effort for a 3 CFU course, but it was funny, so why not? <br /> <br />
+Probably too much effort for a 30 cum laude in a 3 CFU course, but it was funny, so why not? <br /> <br />
 Hope you will find it interesting :smile: <br />
  
 Authors: Simone Sartoni, Nicola Rosetti and Carmelo Valore.
