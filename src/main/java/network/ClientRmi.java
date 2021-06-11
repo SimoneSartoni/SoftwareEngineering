@@ -22,7 +22,7 @@ public class ClientRmi implements Client, Remote, Serializable {
     private ViewClient viewClient;
     private boolean syn;
     private boolean ack;
-    private final int synCheckTime = 1000;
+    private final int synCheckTime = 100000;
     private Timer synCheckTimer;
     private boolean lostConnection;
     private Timer retryingToConnectTimer;
@@ -168,6 +168,7 @@ public class ClientRmi implements Client, Remote, Serializable {
             }
         }
         catch (IOException e) {
+            System.err.println(path);
             System.err.println("Error while creating token file");
             System.err.println(e.getMessage());
         }

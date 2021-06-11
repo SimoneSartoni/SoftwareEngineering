@@ -256,9 +256,9 @@ public class GUIViewJavaFX extends Application implements ViewClient {
             return;
         }
         Registry registry = LocateRegistry.getRegistry(ip, 1200);
-        RemoteController remoteContoller = (RemoteController) registry.lookup("controller");
+        RemoteController remoteController = (RemoteController) registry.lookup("controller");
 
-        ClientRmi clientRmi = new ClientRmi(remoteContoller);
+        ClientRmi clientRmi = new ClientRmi(remoteController);
         clientRmi.setViewClient(this);
 
         this.clientController = new ClientController(clientRmi, this);

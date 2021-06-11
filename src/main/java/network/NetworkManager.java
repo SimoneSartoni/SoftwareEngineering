@@ -44,8 +44,8 @@ public class NetworkManager implements Serializable {
     private final Map<String,MyTimer> synTimer=new HashMap<>();
     private final Map<String,MyTimer> ackCheckTimer= new HashMap<>();
     private Map<String, Boolean> ackMap= new HashMap<>();
-    private final int ackTime=2000;
-    private final int synTime=1000;
+    private final int ackTime=200000;
+    private final int synTime=100000;
 
     //tokens and player management stuffs
     private List<GameManager> gameManagers = new ArrayList<>();
@@ -60,7 +60,7 @@ public class NetworkManager implements Serializable {
 
     //Persistence
     private transient MyTimer persistenceTimer = new MyTimer();
-    private transient final int persistenceTime = 5000;
+    private transient final int persistenceTime = 500000;
 
     private NetworkManager() {
         persistenceTimer.scheduleAtFixedRate(new PersistenceCountdown(), persistenceTime, persistenceTime);
