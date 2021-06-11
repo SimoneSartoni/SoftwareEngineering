@@ -1,7 +1,11 @@
 <h1 align="center">Adrenaline!</h1>
 
+Here is a screen of the game board
 <img src=https://github.com/SimoneSartoni/SoftwareEngineering/blob/master/readme/Gameplay.PNG width="80%" align="center"></p>
 
+If your want to try it, you can download jar files here: 
+jar for client: https://github.com/SimoneSartoni/SoftwareEngineering/blob/master/jar/ing_sw_2019_19_client_jar/ing-sw-2019-19.jar
+jar for server: https://github.com/SimoneSartoni/SoftwareEngineering/blob/master/jar/ing_sw_2019_19_server_jar/ing-sw-2019-19.jar
 
 ## About the project:
 
